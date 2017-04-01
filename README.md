@@ -24,7 +24,7 @@ rick install
 
 ## TODO
 
-- [ ] `rick install`                            # set up the tables in your database
+- [x] `rick install`                            # set up the tables in your database
 - [ ] `rick add http://feeds.kottke.org/main    # add feed to your library`
 - [ ] `rick rss start                           # poll your feeds`
 - [ ] `rick rss stop                            # stop polling`

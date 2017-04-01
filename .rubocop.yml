@@ -1,0 +1,9 @@
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+  ConsistentQuotesInMultiline: true
+Style/DotPosition:
+  EnforcedStyle: trailing
+Style/TrailingCommaInArguments:
+  EnforcedStyleForMultiline: comma
+Style/TrailingCommaInLiteral:
+  EnforcedStyleForMultiline: comma

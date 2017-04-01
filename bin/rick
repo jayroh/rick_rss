@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require "rick_rss"
+
+case ARGV.first
+when "install"
+  puts RickRss::Install.run
+end

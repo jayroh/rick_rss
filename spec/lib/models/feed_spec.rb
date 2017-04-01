@@ -1,7 +1,5 @@
-require "rick_rss"
+# frozen_string_literal: true
+require "spec_helper"
 
-describe Feed do
-  it "says hi" do
-    expect(Feed.hi).to eq "hello"
-  end
+RSpec.describe Feed do
 end

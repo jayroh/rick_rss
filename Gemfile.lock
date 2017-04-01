@@ -5,6 +5,7 @@ PATH
       active_record_migrations
       feedjira
       pg
+      pry
       sqlite3
 
 GEM
@@ -108,7 +109,6 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.14)
-  pry
   rake (~> 10.0)
   rick_rss!
   rspec (~> 3.0)
