@@ -24,8 +24,8 @@ rick install
 
 ## TODO
 
-- [x] `rick install`                            # set up the tables in your database
-- [ ] `rick add http://feeds.kottke.org/main    # add feed to your library`
-- [ ] `rick rss start                           # poll your feeds`
-- [ ] `rick rss stop                            # stop polling`
-- [ ] `rick latest                              # display list of recent blog posts`
+- [x] `rick install` set up the tables in your database
+- [ ] config: define feeds that need monitoring
+- [ ] `rick rss start` poll your feeds
+- [ ] `rick rss stop` stop polling
+- [ ] `rick latest` display list of recent blog posts
