@@ -2,7 +2,7 @@
 
 module RickRss
   class Configuration
-    CONFIG_SOURCE = ".rick_rss_sample"
+    CONFIG_SOURCE = "spec/fixtures/rick_rss.yml"
     HOME_DIR = File.expand_path("~")
 
     def self.adapter
@@ -14,7 +14,7 @@ module RickRss
     end
 
     def self.config_file
-      "#{base_dir}/config"
+      "#{base_dir}/rick_rss.yml"
     end
 
     def self.database

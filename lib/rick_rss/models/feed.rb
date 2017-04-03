@@ -8,13 +8,7 @@ module RickRss
       config          = YAML.load(config_contents)
 
       config["feeds"].each do |feed|
-        puts feed
-
-        create(
-          title: "feed 1",
-          url: feed,
-          last_modified: DateTime.now,
-        )
+        create(title: "feed 1", url: feed, last_modified: DateTime.now)
       end
     end
   end
