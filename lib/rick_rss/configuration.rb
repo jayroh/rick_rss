@@ -18,9 +18,7 @@ module RickRss
     end
 
     def self.database
-      return "db/rick_rss_test.sqlite3" if testing?
-
-      "#{base_dir}/database.sqlite3"
+      "#{base_dir}/rick_rss.sqlite3"
     end
   end
 end

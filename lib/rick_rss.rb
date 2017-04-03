@@ -5,5 +5,15 @@ require "rick_rss/install"
 require "rick_rss/models/feed"
 
 module RickRss
-  DB_URI = ENV.fetch("RICK_RSS_DB_URI", "sqlite3://~/.rick_rss.sqlite3")
+  # Get it started
+  class Init
+    def self.call
+      ActiveRecord::Base.connection
+
+    rescue ActiveRecord::ConnectionNotEstablished => _err
+      env = ENV["db"]
+      db_config = YAML.load(File.open("db/config.yml"))[env]
+      ActiveRecord::Base.establish_connection(db_config)
+    end
+  end
 end

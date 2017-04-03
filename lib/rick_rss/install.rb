@@ -17,8 +17,8 @@ module RickRss
       end
 
       Rake.load_rakefile("Rakefile")
-      Rake.application["db:setup"].invoke
       Rake.application["db:setup"].reenable
+      Rake.application["db:setup"].invoke
 
       FileUtils.cp(RickRss::Configuration::CONFIG_SOURCE, RickRss::Configuration.config_file)
 
