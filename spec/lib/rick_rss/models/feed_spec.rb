@@ -9,8 +9,10 @@ RSpec.describe RickRss::Feed, ".load" do
   end
 
   it "loads the feeds list in the yaml config file into the db" do
-    RickRss::Feed.load
+    VCR.use_cassette("feed_loading") do
+      RickRss::Feed.load
 
-    expect(RickRss::Feed.all.count).to eq 2
+      expect(RickRss::Feed.all.count).to eq 2
+    end
   end
 end

@@ -12,11 +12,8 @@ module RickRss
       config["feeds"].each do |user_feed|
         feed = Feedjira::Feed.fetch_and_parse(user_feed)
 
-        create(
-          title: feed.title,
-          url: feed.feed_url,
-          last_modified: feed.last_modified
-        )
+        find_or_initialize_by(title: feed.title, url: feed.feed_url)
+          .update!(last_modified: feed.last_modified)
       end
     end
   end
