@@ -1,4 +1,6 @@
 # frozen_string_literal: true
+require "feedjira"
+
 module RickRss
   # Model corresponding to the `feeds` database table
   class Feed < ActiveRecord::Base
@@ -7,8 +9,14 @@ module RickRss
       config_contents = File.read(path)
       config          = YAML.load(config_contents)
 
-      config["feeds"].each do |feed|
-        create(title: "feed 1", url: feed, last_modified: DateTime.now)
+      config["feeds"].each do |user_feed|
+        feed = Feedjira::Feed.fetch_and_parse(user_feed)
+
+        create(
+          title: feed.title,
+          url: feed.feed_url,
+          last_modified: feed.last_modified
+        )
       end
     end
   end

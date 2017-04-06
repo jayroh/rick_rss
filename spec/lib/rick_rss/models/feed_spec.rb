@@ -13,16 +13,4 @@ RSpec.describe RickRss::Feed, ".load" do
 
     expect(RickRss::Feed.all.count).to eq 2
   end
-
-  it "loads the feeds list in the yaml config file into the db" do
-    RickRss::Feed.load
-
-    expect(RickRss::Feed.all.count).to eq 2
-  end
-
-  it "loads the feeds list in the yaml config file into the db" do
-    RickRss::Feed.load
-
-    expect(RickRss::Feed.all.count).to eq 2
-  end
 end
