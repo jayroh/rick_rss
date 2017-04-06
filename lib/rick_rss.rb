@@ -3,6 +3,7 @@ require "active_record"
 require "rick_rss/configuration"
 require "rick_rss/install"
 require "rick_rss/models/feed"
+require "rick_rss/models/entry"
 
 module RickRss
   # Get it started

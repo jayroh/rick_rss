@@ -29,7 +29,7 @@ module RickRss
       ENV["db"] = "test"
     end
 
-    it "creates the base directory, db, and config" do
+    it "creates the base directory, db, and config", :installation do
       expect(Dir.exist? base_dir).to eq false
 
       RickRss::Install.run

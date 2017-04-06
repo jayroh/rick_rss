@@ -1,11 +1,21 @@
 # frozen_string_literal: true
 require "spec_helper"
 
+RSpec.describe RickRss::Feed, "validations" do
+  it { should validate_presence_of(:title) }
+  it { should validate_presence_of(:url) }
+end
+
+RSpec.describe RickRss::Feed, "associations" do
+  it { should have_many(:entries) }
+end
+
 RSpec.describe RickRss::Feed, ".load" do
   let(:feed_path) { "spec/fixtures/rick_rss.yml" }
 
   before do
-    allow(RickRss::Configuration).to receive(:config_file).and_return(feed_path)
+    allow(RickRss::Configuration).
+      to receive(:config_file).and_return(feed_path)
   end
 
   it "loads the feeds list in the yaml config file into the db" do

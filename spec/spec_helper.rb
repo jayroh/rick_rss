@@ -4,6 +4,9 @@ require "pry"
 require "database_cleaner"
 require "vcr"
 require "webmock/rspec"
+require "shoulda/matchers"
+require "factory_girl"
+require "factories"
 
 ENV["db"] = "test"
 
@@ -23,6 +26,7 @@ RSpec.configure do |config|
   config.profile_examples = 10
   config.order = :random
   config.default_formatter = 'doc'if config.files_to_run.one?
+  config.include FactoryGirl::Syntax::Methods
 
   config.expect_with :rspec do |expectations|
     expectations.include_chain_clauses_in_custom_matcher_descriptions = true
