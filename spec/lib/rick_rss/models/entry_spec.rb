@@ -21,7 +21,7 @@ RSpec.describe RickRss::Feed, ".upsert" do
 
       expect(feed.entries.count).to eq(1)
       expect(feed.entries.first.title).
-        to eq parsed_kottke_feed.entries.first["title"]
+        to eq parsed_kottke_feed.entries.first.title
     end
   end
 

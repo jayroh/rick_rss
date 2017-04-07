@@ -4,6 +4,8 @@ require "rick_rss/configuration"
 require "rick_rss/install"
 require "rick_rss/models/feed"
 require "rick_rss/models/entry"
+require "rick_rss/decorators/atom_entry"
+require "rick_rss/decorators/rss_entry"
 
 module RickRss
   # Get it started
