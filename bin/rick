@@ -2,9 +2,4 @@
 
 require "rick_rss"
 
-case ARGV.first
-when "install"
-  puts RickRss::Install.run
-when "start"
-  RickRss::Poll.start
-end
+RickRss::Cli.new(ARGV).run

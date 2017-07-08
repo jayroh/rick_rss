@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+
+rm db/*.sqlite3
+gem install bundler --conservative
+bundle check || bundle install
+bundle exec rake db:setup db:test:prepare

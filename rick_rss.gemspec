@@ -1,6 +1,8 @@
-lib = File.expand_path('../lib', __FILE__)
+# frozen_string_literal: true
+
+lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'rick_rss/version'
+require "rick_rss/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "rick_rss"
@@ -8,23 +10,25 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Joel Oliveira"]
   spec.email         = ["joel@jayroh.com"]
 
-  spec.summary       = %q{Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{Write a longer description or delete this line.}
+  spec.summary       = "Write a short summary, because Rubygems requires one."
+  spec.description   = "Write a longer description or delete this line."
   spec.homepage      = "http://joeloliveira.com"
   spec.license       = "MIT"
 
-  # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
-  # to allow pushing to a single host or delete this section to allow pushing to any host.
+  # Prevent pushing this gem to RubyGems.org. To allow pushes either set the
+  # "allowed_push_host" to allow pushing to a single host or delete this
+  # section to allow pushing to any host.
   if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com'"
+    spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
   else
     raise "RubyGems 2.0 or newer is required to protect against " \
       "public gem pushes."
   end
 
-  spec.files         = `git ls-files -z`.split("\x0").reject do |f|
+  spec.files = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
   end
+
   spec.bindir        = "bin"
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
@@ -37,8 +41,9 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "webmock", "~> 2.3"
   spec.add_development_dependency "shoulda-matchers", "2.5.0"
   spec.add_development_dependency "factory_girl", "~> 4.8"
-  spec.add_dependency "pry"
-  spec.add_dependency "active_record_migrations"
-  spec.add_dependency "feedjira"
-  spec.add_dependency "sqlite3"
+  spec.add_development_dependency "minitest", "~> 5.1"
+  spec.add_dependency "pry", "~> 0.10"
+  spec.add_dependency "active_record_migrations", "~> 5.0"
+  spec.add_dependency "feedjira", "~> 2.1"
+  spec.add_dependency "sqlite3", "~> 1.3"
 end
