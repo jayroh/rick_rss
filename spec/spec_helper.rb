@@ -1,12 +1,13 @@
 # frozen_string_literal: true
-require "rick_rss"
-require "pry"
+
 require "database_cleaner"
+require "factory_girl"
+require "minitest/spec"
+require "pry"
+require "rick_rss"
+require "shoulda/matchers"
 require "vcr"
 require "webmock/rspec"
-require "minitest/autorun"
-require "shoulda/matchers"
-require "factory_girl"
 require "factories"
 
 ENV["db"] = "test"
