@@ -1,5 +1,7 @@
 # frozen_string_literal: true
+
 require "active_record"
+require "erb"
 require "rick_rss/cli"
 require "rick_rss/configuration"
 require "rick_rss/install"
@@ -15,10 +17,9 @@ module RickRss
   class Init
     def self.call
       ActiveRecord::Base.connection
-
     rescue ActiveRecord::ConnectionNotEstablished => _err
-      env = ENV["db"]
-      db_config = YAML.load(File.open("db/config.yml"))[env]
+      env = ENV.fetch("db", ENV.fetch("DB", "production"))
+      db_config = YAML.safe_load(ERB.new(File.open("db/config.yml").read).result)[env]
       ActiveRecord::Base.establish_connection(db_config)
     end
   end

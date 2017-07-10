@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+
+rm -rf ~/.rick_rss
+gem uninstall rick_rss -a -x
+gem build rick_rss.gemspec
+gem install `find . -name rick_rss-\*.gem`
+rick install

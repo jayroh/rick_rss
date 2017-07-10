@@ -10,7 +10,7 @@ test:
   timeout: 5000
 production:
   adapter: sqlite3
-  database: ~/.rick_rss/rick_rss.sqlite3
+  database: <%= File.expand_path("~") %>/.rick_rss/rick_rss.sqlite3
   pool: 5
   timeout: 5000
 test_install:
