@@ -1,0 +1,1162 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://feeds.kottke.org/main
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Feedjira 2.1.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 06 Apr 2017 15:30:36 GMT
+      Server:
+      - Apache
+      X-Powered-By:
+      - PHP/5.3.2-1ubuntu4.18
+      Last-Modified:
+      - Thu, 06 Apr 2017 15:16:14 GMT
+      Content-Type:
+      - text/xml
+      Vary:
+      - Accept-Encoding, User-Agent
+      Content-Length:
+      - '67074'
+      Connection:
+      - Keep-Alive
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        <?xml version="1.0" encoding="utf-8"?>
+        <feed xmlns="http://www.w3.org/2005/Atom">
+            <title>kottke.org</title>
+            <link rel="alternate" type="text/html" href="http://kottke.org/" />
+            <link rel="self" type="application/atom+xml" href="http://feeds.kottke.org/main" />
+            <id>tag:kottke.org,2009-08-11:05118</id>
+            <updated>2017-04-06T15:16:14Z</updated>
+            <subtitle>Jason Kottke&apos;s weblog, home of fine hypertext products</subtitle>
+
+            <generator uri="http://www.sixapart.com/movabletype/">Movable Type 4.2</generator>
+
+        <entry>
+            <title>Gender inequality and the Supreme Court</title>
+            <link rel="alternate" type="text/html" href="http://kottke.org/17/04/gender-inequality-and-the-supreme-court" />
+            <id>tag:kottke.org,2017://5.29790</id>
+
+            <published>2017-04-06T15:16:14Z</published>
+            <updated>2017-04-06T15:16:14Z</updated>
+
+            <author>
+                <name>Jason Kottke</name>
+                <uri>http://www.kottke.org</uri>
+            </author>
+            <content type="html" xml:lang="en" xml:base="http://kottke.org/">
+                <![CDATA[<p>Tonja Jacobi and Dylan Schweers have <a href="http://www.scotusblog.com/2017/04/legal-scholarship-highlight-justice-interrupted-gender-ideology-seniority-supreme-court/">published the results of a study</a> they&#8217;ve done related to the role of gender in the workings of the Supreme Court. They found that female justices are interrupted much more often by male justices and advocates than male justices are.</p>
+
+        <blockquote><p>Our empirical study examines interruptions among justices, and between the justices and the advocates, during Supreme Court oral arguments. It shows that women still do not have an equal opportunity to be heard on the highest court in the land. In fact, as more women join the court, the reaction of the male justices and the male advocates has been to increase their interruptions of the female justices.</p></blockquote>
+
+        <p>Even in the most powerful courtroom in the world, the women are being verbally dominated.</p>
+
+        <blockquote><p>Even without adjusting for the low representation of women, the effect is stark. On average, women constituted 22 percent of the court, yet 52 percent of interruptions were directed at them. Overwhelmingly, it was men doing the interrupting: Women interrupted only 15 percent of the time and men interrupted 85 percent of the time, more than their 78 percent representation on the court.</p></blockquote>
+
+        <p>Their study shows that seniority can&#8217;t explain this effect &#8212; &#8220;gender is approximately 30 times more influential than seniority&#8221; &#8212; but some of it can be explained in terms of political ideology: conservative justices interrupt more than liberal justices do.</p>
+
+        <blockquote><p>We found that the power dynamic does not only affect women: In a court that has been dominated by Republican appointees for over half a century, conservative justices have also dominated liberal justices by interrupting them. We expected cross-ideological interruptions to occur more often than interruptions within ideological camps, and this is true: 62 percent of interruptions cross ideological lines, compared to 38 percent within an ideological camp. However, the effect does not go in both directions: 70 percent of interruptions were of liberals, and only 30 percent of conservatives. Once again, advocates display the same tendency. Advocates interrupting the liberal justices account for over ten percent of interruptions, yet advocate interruptions of the conservative justices account for less than three percent of interruptions.</p></blockquote>
+
+        <p>I wonder what the results would look like if Clarence Thomas <a href="https://www.theatlantic.com/politics/archive/2016/02/clarence-thomas-supreme-court/471582/">ever talked</a> in court? (via <a href="https://twitter.com/caitlin__kelly">@caitlin__kelly</a>)</p>]]>
+
+        <![CDATA[ <strong>Tags:</strong> <a href="http://kottke.org/tag/Dylan%20Schweers">Dylan Schweers</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/legal">legal</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/sexism">sexism</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/Supreme%20Court">Supreme Court</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/Tonja%20Jacobi">Tonja Jacobi</a>]]>
+            </content>
+        </entry>
+
+        <entry>
+            <title>The Double King</title>
+            <link rel="alternate" type="text/html" href="http://kottke.org/17/04/the-double-king" />
+            <id>tag:kottke.org,2017://5.29788</id>
+
+            <published>2017-04-06T13:50:35Z</published>
+            <updated>2017-04-06T13:50:35Z</updated>
+
+            <author>
+                <name>Jason Kottke</name>
+                <uri>http://www.kottke.org</uri>
+            </author>
+            <content type="html" xml:lang="en" xml:base="http://kottke.org/">
+                <![CDATA[<p><iframe width="640" height="360" src="https://www.youtube.com/embed/w_MSFkZHNi4?rel=0" frameborder="0" allowfullscreen></iframe></p>
+
+        <p>The Double King takes &#8220;thou shalt not have any other kings before me&#8221; very seriously. (via <a href="https://twitter.com/tonyszhou">@tonyszhou</a>)</p>]]>
+
+        <![CDATA[ <strong>Tags:</strong> <a href="http://kottke.org/tag/video">video</a>]]>
+            </content>
+        </entry>
+
+        <entry>
+            <title>An average hand-drawn map of the world</title>
+            <link rel="alternate" type="text/html" href="http://kottke.org/17/04/an-average-hand-drawn-map-of-the-world" />
+            <id>tag:kottke.org,2017://5.29770</id>
+
+            <published>2017-04-05T20:10:50Z</published>
+            <updated>2017-04-05T20:10:50Z</updated>
+
+            <author>
+                <name>Jason Kottke</name>
+                <uri>http://www.kottke.org</uri>
+            </author>
+            <content type="html" xml:lang="en" xml:base="http://kottke.org/">
+                <![CDATA[<p><img src="http://also.kottke.org/misc/images/average-world-map.jpg" width="1102" height="1223" border="0" alt="Average World Map" /></p>
+
+        <p>Zak Ziebell asked 30 people to sketch a map of the world and <a href="https://www.theatlantic.com/international/archive/2014/01/what-you-get-when-30-people-draw-a-world-map-from-memory/282901/">then averaged the results</a> into the map above. I especially love the bottom one with the satellite terrain.</p>
+
+        <blockquote><p>Tasked with creating &#8220;a piece of art that would reveal something unseen&#8221; as part of a pre-college fine arts program, Ziebell approached 29 strangers on the University of Michigan&#8217;s campus, handed them a pen and half a sheet of paper, and asked them, on the spot, to draw a map of the world. Ziebell, who recently posted his findings to Reddit, then completed the task himself and digitally merged the 30 maps into one image, overlaying the composite drawing with satellite data.</p></blockquote>]]>
+
+        <![CDATA[ <strong>Tags:</strong> <a href="http://kottke.org/tag/maps">maps</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/Zak%20Ziebell">Zak Ziebell</a>]]>
+            </content>
+        </entry>
+
+        <entry>
+            <title>The NYPD&#8217;s doppelganger problem and racially unfair policing</title>
+            <link rel="alternate" type="text/html" href="http://kottke.org/17/04/the-nypds-doppelganger-problem-and-racially-unfair-policing" />
+            <id>tag:kottke.org,2017://5.29785</id>
+
+            <published>2017-04-05T18:01:12Z</published>
+            <updated>2017-04-05T18:01:12Z</updated>
+
+            <author>
+                <name>Jason Kottke</name>
+                <uri>http://www.kottke.org</uri>
+            </author>
+            <content type="html" xml:lang="en" xml:base="http://kottke.org/">
+                <![CDATA[<p><img src="http://also.kottke.org/misc/images/lisa-davis-lisa-davis.jpg" width="1000" height="600" border="0" alt="Lisa Davis Lisa Davis" /></p>
+
+        <p>For years, a white woman named Lisa Davis <a href="https://www.theguardian.com/us-news/2017/apr/03/identity-theft-racial-justice">was paying the price</a> (sometimes literally) for tickets issued to other women named Lisa Davis living in NYC.</p>
+
+        <blockquote><p>Finally, the DMV told me that I wasn&#8217;t the victim of identity theft; there was simply another Lisa S Davis with the same birthday in New York City. Our records were crossed. When cops run a license, they don&#8217;t check the person&#8217;s address, signature, or social security numbers. They check the name and the birthday, and both the other Lisa S Davis&#8217;s and mine were the same. We were, in the eyes of the law, one person, caught in a perfect storm of DMV and NYPD idiocy.</p></blockquote>
+
+        <p>In fighting all of these improperly filed tickets, Davis learned that most of them issued for bullshit <a href="http://www.pbs.org/wgbh/frontline/article/the-problem-with-broken-windows-policing/">&#8220;broken windows&#8221;</a> misdemeanors in predominately minority neighborhoods.</p>
+
+        <blockquote><p>It was then that it became clear to me: the reason for the tickets wasn&#8217;t that these Lisa Davises were petty criminals. The reason was likely that they lived in highly policed areas where even the smallest infractions are ticketed, the sites of &#8220;Broken Windows&#8221; policing. The reason, I thought, was that they weren&#8217;t white.</p>
+
+        <p>That could have been the &#8220;proof&#8221; I offered to the judge. Brownsville&#8217;s population is less than 1% white. It almost couldn&#8217;t have been me. My neighborhood, though fairly diverse (and cheap) when I moved there in the early 90s, is now 76% white. I have never heard of anyone getting tickets in my neighborhood for any of the infractions committed by the Lisa Davises in neighborhoods of color.</p>
+
+        <p>I felt there was only one thing to do. I had to find the Lisa Davises, to untangle myself from them, to talk to them about being Lisa Davises, and to see if they agreed with my supposition: that the real &#8220;crime&#8221; they had committed was being non-white.</p></blockquote>
+
+        <p>See also Pro Publica&#8217;s report published today, <a href="https://www.propublica.org/article/minority-neighborhoods-higher-car-insurance-premiums-white-areas-same-risk">Minority Neighborhoods Pay Higher Car Insurance Premiums Than White Areas With the Same Risk</a>.</p>]]>
+
+        <![CDATA[ <strong>Tags:</strong> <a href="http://kottke.org/tag/crime">crime</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/legal">legal</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/Lisa%20Davis">Lisa Davis</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/NYC">NYC</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/NYPD">NYPD</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/racism">racism</a>]]>
+            </content>
+        </entry>
+
+        <entry>
+            <title>A talented pufferfish creates an underwater &#8220;crop circle&#8221;</title>
+            <link rel="alternate" type="text/html" href="http://kottke.org/17/04/a-talented-pufferfish-creates-an-underwater-crop-circle" />
+            <id>tag:kottke.org,2017://5.29784</id>
+
+            <published>2017-04-05T15:54:38Z</published>
+            <updated>2017-04-05T15:54:38Z</updated>
+
+            <author>
+                <name>Jason Kottke</name>
+                <uri>http://www.kottke.org</uri>
+            </author>
+            <content type="html" xml:lang="en" xml:base="http://kottke.org/">
+                <![CDATA[<p><iframe width="640" height="360" src="https://www.youtube.com/embed/p1PID91sEW8?rel=0" frameborder="0" allowfullscreen></iframe></p>
+
+        <p>The elaborate courtship rituals of animals from around the world are featured heavily in every BBC nature documentary series. (See, for instance, <a href="https://www.youtube.com/watch?v=nWfyw51DQfU">these birds of paradise</a>&#8230;if you haven&#8217;t seen this before, wait for the giant clicking smile.) In the video above featuring a scene from the 2014 series <a href="https://www.amazon.com/exec/obidos/ASIN/B00YMIO0XE/ref=nosim/0sil8">Life Story</a>, watch a Japanese puffer fish create an elaborate pattern in the sand in order to attract a mate. Narrator David Attenborough calls the puffer fish &#8220;probably nature&#8217;s greatest artist&#8221; and I gasped at the full reveal of his creation.</p>]]>
+
+        <![CDATA[ <strong>Tags:</strong> <a href="http://kottke.org/tag/David%20Attenborough">David Attenborough</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/Life%20Story">Life Story</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/TV">TV</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/video">video</a>]]>
+            </content>
+        </entry>
+
+        <entry>
+            <title>The internet is photoshopping Mr. Bean into things and it&#8217;s great</title>
+            <link rel="alternate" type="text/html" href="http://kottke.org/17/04/the-internet-is-photoshopping-mr-bean-into-things-and-its-great" />
+            <id>tag:kottke.org,2017://5.29783</id>
+
+            <published>2017-04-05T13:50:49Z</published>
+            <updated>2017-04-05T13:50:49Z</updated>
+
+            <author>
+                <name>Jason Kottke</name>
+                <uri>http://www.kottke.org</uri>
+            </author>
+            <content type="html" xml:lang="en" xml:base="http://kottke.org/">
+                <![CDATA[<p>Sometimes when the world is crashing down around you, only the dumbest possible thing will do and today&#8217;s installment is <a href="http://www.boredpanda.com/mr-bean-rowan-atkinson-photoshop/">Mr. Bean photoshopped into various things</a> and I am loving it.</p>
+
+        <p><img src="http://also.kottke.org/misc/images/mr-bean-photoshopped-01.jpg" width="880" height="1320" border="0" alt="Mr Bean Photoshopped" /></p>
+
+        <p><img src="http://also.kottke.org/misc/images/mr-bean-photoshopped-02.jpg" width="880" height="587" border="0" alt="Mr Bean Photoshopped" /></p>
+
+        <p><img src="http://also.kottke.org/misc/images/mr-bean-photoshopped-03.jpg" width="880" height="1233" border="0" alt="Mr Bean Photoshopped" /></p>]]>
+
+        <![CDATA[ <strong>Tags:</strong> <a href="http://kottke.org/tag/Mr.%20Bean">Mr. Bean</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/remix">remix</a>]]>
+            </content>
+        </entry>
+
+        <entry>
+            <title>An Inconvenient Sequel</title>
+            <link rel="alternate" type="text/html" href="http://kottke.org/17/04/an-inconvenient-sequel" />
+            <id>tag:kottke.org,2017://5.29778</id>
+
+            <published>2017-04-04T19:47:33Z</published>
+            <updated>2017-04-04T19:47:33Z</updated>
+
+            <author>
+                <name>Jason Kottke</name>
+                <uri>http://www.kottke.org</uri>
+            </author>
+            <content type="html" xml:lang="en" xml:base="http://kottke.org/">
+                <![CDATA[<p><iframe width="640" height="360" src="https://www.youtube.com/embed/huX1bmfdkyA?rel=0" frameborder="0" allowfullscreen></iframe></p>
+
+        <p>In 2006, Davis Guggenheim directed <a href="https://www.amazon.com/exec/obidos/ASIN/B00AB0SHRW/ref=nosim/0sil8">An Inconvenient Truth</a>, a documentary film about Al Gore&#8217;s fight to educate the world about climate change. It made nearly $50 million at the box office, won the Oscar for Best Documentary Feature, and is credited for moving the conversation about climate change along (although not nearly fast enough, in my mind). This July, a followup documentary will be released: An Inconvenient Sequel: Truth to Power. From <a href="http://www.latimes.com/entertainment/movies/la-et-mn-sundance-inconvenient-sequel-opening-night-20170120-story.html">a review in the LA Times</a>:</p>
+
+        <blockquote><p>Eleven Sundances later, Gore&#8217;s star wattage seemed entirely undimmed at Thursday evening&#8217;s premiere of &#8220;An Inconvenient Sequel: Truth to Power,&#8221; an awkwardly titled, stirringly crafted follow-up that measures the progress that has and hasn&#8217;t been made in the battle against global warming. Taking over for Davis Guggenheim, the directors Bonni Cohen and Jon Shenk largely abandon the framing device of Gore&#8217;s lecture (which he and his international team of trainees continue to give regularly) in favor of a nimbler, more on-the-go approach.</p>
+
+        <p>Despite some updates on the continuing decline of the world&#8217;s glaciers and the link between climate change and the recent Zika virus outbreak, the focus this time is less on science than on politicking. Cohen and Shenk tag along with Gore on a globe-trotting mission to persuade various heads of state to invest in wind and solar energy, and reduce their reliance on fossil fuels &#8212; an effort that culminates on-screen with the signing of last year&#8217;s historic Paris climate accord.</p></blockquote>]]>
+
+        <![CDATA[ <strong>Tags:</strong> <a href="http://kottke.org/tag/Al%20Gore">Al Gore</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/An%20Inconvenient%20Sequel">An Inconvenient Sequel</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/An%20Inconvenient%20Truth">An Inconvenient Truth</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/Davis%20Guggenheim">Davis Guggenheim</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/global%20warming">global warming</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/movies">movies</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/trailers">trailers</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/video">video</a>]]>
+            </content>
+        </entry>
+
+        <entry>
+            <title>A guide to what teens think is cool</title>
+            <link rel="alternate" type="text/html" href="http://kottke.org/17/04/a-guide-to-what-teens-think-is-cool" />
+            <id>tag:kottke.org,2017://5.29777</id>
+
+            <published>2017-04-04T17:39:51Z</published>
+            <updated>2017-04-04T17:39:51Z</updated>
+
+            <author>
+                <name>Jason Kottke</name>
+                <uri>http://www.kottke.org</uri>
+            </author>
+            <content type="html" xml:lang="en" xml:base="http://kottke.org/">
+                <![CDATA[<p><img src="http://also.kottke.org/misc/images/teens-cool-brands-2017.jpg" width="1419" height="1039" border="0" alt="Teens Cool Brands 2017" /></p>
+
+        <p>Google <a href="https://storage.googleapis.com/think/docs/its-lit.pdf">recently released a report</a> about what US teenagers think is cool. The chart above is getting a bunch of attention on social media; teens aged 13-17 were asked to rank a bunch of brands according to how cool they think they are. Since the poll was commissioned by Google (and the results published by <a href="https://www.thinkwithgoogle.com/">an internal marketing team</a>), it&#8217;s unsurprising that three Google brands (YouTube, Google, Chrome) are in the top 10. Other interesting data points:</p>
+
+        <p>- Teens don&#8217;t know what Zara and Uniqlo are. Or Supreme.</p>
+
+        <p>- Buzzfeed is only slightly cooler than Ford and Chevrolet, which are both cooler than HBO. Perhaps because HBO can&#8217;t get you to a party and you can&#8217;t make out in a Buzzfeed?</p>
+
+        <p>- Kraft is cooler than Red Bull.</p>
+
+        <p>- Whatsapp, TMZ, Vice, and Yahoo are all super uncool.</p>
+
+        <p>- Twitter is cooler than Facebook, but Snapchat is much cooler than both.</p>
+
+        <p>- The Wall Street Journal is the least cool thing in the teen universe.</p>
+
+        <p>- <a href="https://twitter.com/DVSblast/status/849007567858696194">This tweet</a> is a good reminder not to take any of this too seriously.</p>
+
+        <p>There&#8217;s also this curious sentence in the introduction about <a href="https://en.wikipedia.org/wiki/Generation_Z">Generation Z</a>:</p>
+
+        <blockquote><p>Unlike millennials, this group is ambitious, engaged, and feel like they can change the world.</p></blockquote>
+
+        <p>Ouch. In what universe is that even a remotely true or fair statement?</p>]]>
+
+        <![CDATA[ <strong>Tags:</strong> <a href="http://kottke.org/tag/Google">Google</a>]]>
+            </content>
+        </entry>
+
+        <entry>
+            <title>Some things I&#8217;ve read, seen, and heard in the past few months</title>
+            <link rel="alternate" type="text/html" href="http://kottke.org/17/04/some-things-ive-read-seen-and-heard-in-the-past-few-months" />
+            <id>tag:kottke.org,2017://5.29774</id>
+
+            <published>2017-04-04T15:08:25Z</published>
+            <updated>2017-04-04T15:08:25Z</updated>
+
+            <author>
+                <name>Jason Kottke</name>
+                <uri>http://www.kottke.org</uri>
+            </author>
+            <content type="html" xml:lang="en" xml:base="http://kottke.org/">
+                <![CDATA[<p>Don&#8217;t pay too much attention to the letter grades, they&#8217;re super subjective. Oh, and don&#8217;t pay too much attention to the descriptions&#8230;also subjective. You know what, you should probably just skip this post and watch Planet Earth II instead. It&#8217;s objectively great. </p>
+
+        <p><a href="https://www.amazon.com/exec/obidos/ASIN/B01M0K5JA5/ref=nosim/0sil8">The Handmaiden</a>. Khoi Vinh <a href="https://www.subtraction.com/2016/11/23/three-movies/">turned me onto this</a>. Loved it. (A)</p>
+
+        <p><a href="https://www.amazon.com/exec/obidos/ASIN/B01I1P8GWE/ref=nosim/0sil8">What Happened, Miss Simone?</a> Nina Simone is underrated. There are some spine-tingling live musical moments in this film. (B+)</p>
+
+        <p><a href="https://www.amazon.com/exec/obidos/ASIN/0765382032/ref=nosim/0sil8">The Three-Body Problem</a>. Recommended by <a href="http://www.tor.com/2017/01/17/barack-obama-books-the-three-body-problem/">Barry</a>. The first book is great, the next two are good but pretty depressing. (B+)</p>
+
+        <p><a href="https://www.amazon.com/exec/obidos/ASIN/B01NARWGRS/ref=nosim/0sil8">Moonlight</a>. While this didn&#8217;t grab me as much as it did everyone else, the Academy got it right. (A-)</p>
+
+        <p><a href="https://www.amazon.com/exec/obidos/ASIN/B01EIM5V2W/ref=nosim/0sil8">The Night Manager</a>. I can see what Taylor Swift saw in Tom Hiddleston. (B+)</p>
+
+        <p><a href="https://en.wikipedia.org/wiki/T2_Trainspotting">T2 Trainspotting</a>. If you saw and loved the original, you should see this. It is somehow nostalgic and also not. (B)</p>
+
+        <p><a href="http://www.hbo.com/girls">Girls</a>. The struggles of 20-something New Yorkers and the crises of 40-something males may not be the same, but they sure do rhyme. (B+)</p>
+
+        <p><a href="https://en.wikipedia.org/wiki/Beauty_and_the_Beast_(2017_film)">Beauty and the Beast</a>. Better than I expected, even for a musical about the Stockholm syndrome. (I mean, why didn&#8217;t the Beast let Belle go like waaaay sooner?) I never saw the original when I was a kid but somehow knew all the songs anyway? I even got a little teary at the end but perhaps that&#8217;s just because my emotional life is a puddly mess rn. (B)</p>
+
+        <p><a href="https://www.amazon.com/exec/obidos/ASIN/B01N0YCAOY/ref=nosim/0sil8">Hidden Figures</a>. <a href="http://kottke.org/17/02/hidden-figures">Really liked this</a>. (A-)</p>
+
+        <p><a href="https://www.amazon.com/exec/obidos/ASIN/1400075998/ref=nosim/0sil8">Turing&#8217;s Cathedral</a>. <a href="https://www.amazon.com/exec/obidos/ASIN/B00HQ1DSKU/ref=nosim/0sil8">Raging Bull</a>. <a href="https://www.amazon.com/exec/obidos/ASIN/B01M6BFCRC/ref=nosim/0sil8">Manchester by the Sea</a>. I am increasingly bored by stories about white dudes. Look at the rest of this list. The best stuff, the things I liked the most, are stories about or stories told by women or people of color or non-Americans. (C)</p>
+
+        <p><a href="https://www.amazon.com/exec/obidos/ASIN/0062464310/ref=nosim/0sil8">Homo Deus</a>. Still haven&#8217;t finished this, but I&#8217;m persisting because <a href="https://www.amazon.com/exec/obidos/ASIN/0062316095/ref=nosim/0sil8">Sapiens</a> was so good. Hard to escape the conclusion that the sequel is not quite so good. (B-) </p>
+
+        <p><a href="https://www.amazon.com/exec/obidos/ASIN/B01N35YDO6/ref=nosim/0sil8">Planet Earth II</a>. This is the best thing I&#8217;ve seen in the last year. Just fucking watch it already. (A+)</p>
+
+        <p><a href="https://open.spotify.com/album/1lXY618HWkwYKJWBRYR4MK">More Life</a>. Liking this more than Views. Drake&#8217;s non-albums are better than his albums. (B+) </p>
+
+        <p><a href="https://www.amazon.com/exec/obidos/ASIN/B002NVELDQ/ref=nosim/0sil8">Mad Men</a>. My second time through. Better than I remember and I remember it being great. (A+)</p>
+
+        <p><a href="https://www.netflix.com/title/80025678">The Crown</a>. Expected Downton (soapy but fun) but was rewarded with great acting and writing. Claire Foy as Elizabeth and John Lithgow as Churchill were *kisses fingers*. (A)</p>
+
+        <p><a href="https://open.spotify.com/album/4xnq1L6P551Qcb9gBXNMK7">&#8220;Awaken My Love&#8221;</a>. I&#8217;m sorry, I just couldn&#8217;t figure this one out. (C-)</p>
+
+        <p><a href="https://www.amazon.com/exec/obidos/ASIN/0399184481/ref=nosim/0sil8">Wonderland</a>. Steven Johnson&#8217;s best book yet. (A)</p>
+
+        <p><a href="https://www.amazon.com/exec/obidos/ASIN/0385542364/ref=nosim/0sil8">The Underground Railroad</a>. Nothing to say about this that already hasn&#8217;t been said. (A)</p>
+
+        <p><a href="https://www.amazon.com/exec/obidos/ASIN/B06XDRTLNY/ref=nosim/0sil8">Logan</a>. Producers are realizing they&#8217;ve stocked their superhero movies with great actors so maybe they should give them material worthy of their talents. (B+)</p>
+
+        <p><a href="https://www.amazon.com/exec/obidos/ASIN/B01H2HHML8/ref=nosim/0sil8">Finding Dory</a>. <a href="http://kottke.org/17/01/finding-dory-is-a-movie-about-disability">It&#8217;s a movie about disability</a>. (A-)</p>
+
+        <p><a href="https://www.netflix.com/title/80057883">Abstract</a>. Pretty good, but I agree with <a href="http://www.newyorker.com/culture/culture-desk/celebrating-design-without-contending-with-it">Rob Walker&#8217;s take</a>. Niemann is closest to the way I work/think but I liked Bjarke&#8217;s episode the best&#8230;even though I&#8217;ve got some, er, issues with the guy. (B)</p>
+
+        <p><a href="https://www.amazon.com/exec/obidos/ASIN/1338099132/ref=nosim/0sil8">Harry Potter and the Cursed Child</a>. The script, not the play. I have now read all 8 of the Harry Potter books with my kids&#8230;it took more than 4 years. Very sad it&#8217;s over&#8230;it ended up being one of the most rewarding things I&#8217;ve done with them. (B+)</p>]]>
+
+        <![CDATA[ <strong>Tags:</strong> <a href="http://kottke.org/tag/books">books</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/lists">lists</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/movies">movies</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/music">music</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/TV">TV</a>]]>
+            </content>
+        </entry>
+
+        <entry>
+            <title>Getting Apple scoops with this one weird blog</title>
+            <link rel="alternate" type="text/html" href="http://kottke.org/17/04/getting-apple-scoops-with-this-one-weird-blog" />
+            <id>tag:kottke.org,2017://5.29775</id>
+
+            <published>2017-04-04T12:51:04Z</published>
+            <updated>2017-04-04T12:51:04Z</updated>
+
+            <author>
+                <name>Jason Kottke</name>
+                <uri>http://www.kottke.org</uri>
+            </author>
+            <content type="html" xml:lang="en" xml:base="http://kottke.org/">
+                <![CDATA[<p>John Gruber <a href="http://daringfireball.net/2017/04/the_mac_pro_lives">has good news for hardcore Mac users</a>: Apple is releasing a completely redesigned Mac Pro next year and new iMacs with pro-level specs this year. Intriguing, but I&#8217;m more interested in how this news was delivered:</p>
+
+        <blockquote><p>There are only nine people at the table. Phil Schiller, Craig Federighi, and John Ternus (vice president, hardware engineering &#8212; in charge of Mac hardware) are there to speak for Apple. Bill Evans from Apple PR is there to set the ground rules and run the clock. (We had 90 minutes.) The other five are writers who were invited for what was billed as &#8220;a small roundtable discussion about the Mac&#8221;: Matthew Panzarino, Lance Ulanoff, Ina Fried, John Paczkowski, and yours truly.</p></blockquote>
+
+        <p>Gruber runs a one-person independent blog that he started as a hobby and now he&#8217;s one of five people on the planet that the largest company in the world invites in for an unprecedented preview of new Mac hardware. (And I would argue he&#8217;s perhaps the only one invited who would be viewed as indispensable &#8212; you could see the others swapped out for Mossberg or Pogue or Swisher or Manjoo, but not Gruber.) That&#8217;s incredible and inspiring. It may be the twilight of the independent blogger, but Gruber continues to show how a small-but-obsessive site can do things no one else can.</p>
+
+        <p><strong>Update:</strong> A pal just alerted me that Daring Fireball is having difficulty serving pages, something that usually only happens to sites DF features. &#8220;Is this the first self-fireballing in Gruber&#8217;s history?&#8221; (via <a href="https://twitter.com/djacobs">@djacobs</a>)</p>]]>
+
+        <![CDATA[ <strong>Tags:</strong> <a href="http://kottke.org/tag/Apple">Apple</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/John%20Gruber">John Gruber</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/weblogs">weblogs</a>]]>
+            </content>
+        </entry>
+
+        <entry>
+            <title>The Orion Nebula, our friendly neighborhood star factory</title>
+            <link rel="alternate" type="text/html" href="http://kottke.org/17/04/the-orion-nebula-our-friendly-neighborhood-star-factory" />
+            <id>tag:kottke.org,2017://5.29771</id>
+
+            <published>2017-04-03T18:18:16Z</published>
+            <updated>2017-04-03T18:18:16Z</updated>
+
+            <author>
+                <name>Jason Kottke</name>
+                <uri>http://www.kottke.org</uri>
+            </author>
+            <content type="html" xml:lang="en" xml:base="http://kottke.org/">
+                <![CDATA[<p><img src="http://also.kottke.org/misc/images/orion-nebula.jpg" width="1400" height="946" border="0" alt="Orion Nebula" /></p>
+
+        <p>Rolf Olsen <a href="https://www.facebook.com/rolf.wahl.olsen/posts/10155136326339812">recently took this amazing photo</a> of the Orion Nebula using a home-built telescope.</p>
+
+        <blockquote><p>The Orion Nebula is one of the most studied objects in the sky and also has a significant place in the history of astrophotography. In 1880 it was the first ever nebula to be photographed; Henry Draper used the newly invented dry plate process to acquire a 51-minute exposure of the nebula with an 11 inch telescope. Subsequently, in 1883, amateur astronomer Andrew Ainslie Common recorded several exposures up to 60 minutes long with a much larger 36-inch telescope, and showed for the first time that photography could reveal stars and details fainter than those visible to the human eye.</p></blockquote>
+
+        <p>Thanks to Phil Plait for the link&#8230;<a href="http://www.blastr.com/2017-3-31/stunning-astrophotos-orion-context-and-detail">he&#8217;s got much more to say about the image and the nebula here</a>.</p>
+
+        <blockquote><p>Also called M42 (the 42nd object in a catalog kept by comet hunter Charles Messier in the late 18th century), it is a sprawling star factory, a gas cloud where stars are born. It&#8217;s a couple of dozen light-years across, and sits well over a thousand light-years from Earth. That&#8217;s 10,000 trillion kilometers, and you can see it with your naked eye! It&#8217;s so bright because of a handful of extremely massive hot stars sit in its center. They blast out ultraviolet light that energizes the gas in the nebula, causing it to glow.</p>
+
+        <p>It&#8217;s actually a small section of a much larger dark cloud, what&#8217;s called a molecular cloud, that we cannot see directly. Stars were born near the edge of that cloud, not too deeply inside it, and when they switched on their fierce light and stellar winds blew a hole in the cloud, popping it like a bubble. The Orion Nebula is a cavity in the side of that cloud, carved by the newborn stars.</p></blockquote>]]>
+
+        <![CDATA[ <strong>Tags:</strong> <a href="http://kottke.org/tag/astronomy">astronomy</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/Phil%20Plait">Phil Plait</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/photography">photography</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/physics">physics</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/Rolf%20Olsen">Rolf Olsen</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/science">science</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/space">space</a>]]>
+            </content>
+        </entry>
+
+        <entry>
+            <title>Some site news: a (temporary) farewell to advertising</title>
+            <link rel="alternate" type="text/html" href="http://kottke.org/17/04/some-site-news-a-temporary-farewell-to-advertising" />
+            <id>tag:kottke.org,2017://5.29768</id>
+
+            <published>2017-04-03T15:37:12Z</published>
+            <updated>2017-04-03T15:37:12Z</updated>
+
+            <author>
+                <name>Jason Kottke</name>
+                <uri>http://www.kottke.org</uri>
+            </author>
+            <content type="html" xml:lang="en" xml:base="http://kottke.org/">
+                <![CDATA[<p>For the past 12 years, working on kottke.org has been my full-time job. For all but two of those years, my primary source of income has come from a small advertisement that appeared on each page of the site served up by <a href="http://decknetwork.net/">The Deck</a>. The Deck was small advertising network that displayed ads on sites like kottke.org, Daring Fireball, swissmiss, MetaFilter, and The Morning News from advertisers like MailChimp, Slack, Adobe, Amazon, Microsoft, Facebook, etc. etc. etc. The ads were small &amp; clean and accompanied by a bit of text and a link; that&#8217;s it. No tracking, no targeting, no pop-ups. The ads were tasteful, polite even. In exchange for allowing these companies a small piece of my site to tell you folks about their products and services, I was paid a fixed amount every month, direct-deposited like clockwork into my bank account. I never ever had to think about it &#8212; we didn&#8217;t even have a contract!<sup id="fnref:1490799946"><a href="#fn:1490799946" rel="footnote">1</a></sup> &#8212; all I had to do was write. All in all, a fair trade for everyone involved.</p>
+
+        <p>Sharp-eyed readers will note that The Deck ad is no longer on the site. Some months ago, Jim Coudal informed me that the ad network was struggling to attract advertisers. An attempt at restructuring failed and, as of March 31, The Deck is no more. There&#8217;s much I could say about the challenges faced by small independent sites now and how drastically the online advertising market has changed in the past few years, but mostly I&#8217;d like to thank Jim (and original Deck co-conspirators Jason Fried and Jeffrey Zeldman) for building a service that allowed me do my thing with minimal fuss for so long. Jim, I wish you continued good luck in steering the <a href="https://fieldnotesbrand.com/">Field Notes</a> juggernaut.</p>
+
+        <p>So, where does that leave kottke.org? Luckily I anticipated something like this happening<sup id="fnref:1490802590"><a href="#fn:1490802590" rel="footnote">1</a></sup> and the <a href="http://kottke.org/16/11/kottkeorg-memberships">launch of memberships back in November</a> has left the site on stable financial ground, even without advertising. Thank you, members! Seriously, you people saved <a href="https://en.wikipedia.org/wiki/It's_a_Wonderful_Life">the Building & Loan</a>. And if you&#8217;re not yet a member and you find value in what I do here, <strong><a href="http://kottke.org/members/">there has never been a better time to support kottke.org</a></strong>.</p>
+
+        <p>Even so, in the interests of necessarily diversifying the revenue of this here very small business, I will be looking at options for replacing The Deck with&#8230;.something. I have a few leads and ideas but am open to suggestions. Wanna do a year-long sponsorship of one of the best independent sites on the internet? Got a line on a small ad network with tasteful advertising? Do you have experience with online advertising and advice for me? <a href="mailto:jason@kottke.org?subject=kottke.org feedback">Let&#8217;s talk.</a> <a href="https://theawl.com/a-complete-taxonomy-of-internet-chum-de0b7a070a2d">Chumbox</a> providers need not apply.</p>
+
+        <ol><li class="footnote" id="fn:1490799946"><p>You would not believe the looks people gave me when I told them this. My entire livelihood, dependent on a handshake! I dunno, it just never seemed necessary. *shrug* <a href="#fnref:1490799946" title="return to article">&#x21A9;</a><p></li>
+
+        <p><li class="footnote" id="fn:1490802590"><p>Which I feel a little clever about except that I should have done the membership thing years ago. Idiot. Just as every problem is actually a opportunity, every success is an chance to consider how you might have done it better.<a href="#fnref:1490802590" title="return to article">&#x21A9;</a><p></li></ol></p>]]>
+
+        <![CDATA[ <strong>Tags:</strong> <a href="http://kottke.org/tag/advertising">advertising</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/Jim%20Coudal">Jim Coudal</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/kottke.org">kottke.org</a>]]>
+            </content>
+        </entry>
+
+        <entry>
+            <title>Misty black &amp; white watercolor paintings of animals and children</title>
+            <link rel="alternate" type="text/html" href="http://kottke.org/17/04/misty-black-white-watercolor-paintings-of-animals-and-children" />
+            <id>tag:kottke.org,2017://5.29765</id>
+
+            <published>2017-04-03T13:59:38Z</published>
+            <updated>2017-04-03T13:59:38Z</updated>
+
+            <author>
+                <name>Jason Kottke</name>
+                <uri>http://www.kottke.org</uri>
+            </author>
+            <content type="html" xml:lang="en" xml:base="http://kottke.org/">
+                <![CDATA[<p><img src="http://also.kottke.org/misc/images/elicia-edijanto-01.jpg" width="1080" height="856" border="0" alt="Elicia Edijanto" /></p>
+
+        <p><img src="http://also.kottke.org/misc/images/elicia-edijanto-02.jpg" width="1080" height="1080" border="0" alt="Elicia Edijanto" /></p>
+
+        <p>Colossal <a href="http://www.thisiscolossal.com/2017/03/hazey-black-watercolor-paintings-of-children-with-animals-by-elicia-edijanto/">posted</a> these watercolor paintings by <a href="http://www.eliciaedijanto.com/">Elicia Edijanto</a> on Friday and I&#8217;ve been peeking at them all weekend.</p>
+
+        <blockquote><p>&#8220;My subject are often children and animal because they are honest, sincere, unprejudiced and unpretentious,&#8221; shares Edijanto. &#8220;They give me so much inspiration for [a] particular mood or atmosphere, such as tranquility, solemnity, and also wilderness and freedom, which I put on my paintings.&#8221;</p></blockquote>
+
+        <p>Instant follow <a href="https://www.instagram.com/eliciaedijanto/">on Instagram</a>.</p>]]>
+
+        <![CDATA[ <strong>Tags:</strong> <a href="http://kottke.org/tag/art">art</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/Elicia%20Edijanto">Elicia Edijanto</a>]]>
+            </content>
+        </entry>
+
+        <entry>
+            <title>A full rotation of the Moon</title>
+            <link rel="alternate" type="text/html" href="http://kottke.org/17/03/a-full-rotation-of-the-moon" />
+            <id>tag:kottke.org,2017://5.29761</id>
+
+            <published>2017-03-31T21:18:18Z</published>
+            <updated>2017-03-31T21:18:18Z</updated>
+
+            <author>
+                <name>Jason Kottke</name>
+                <uri>http://www.kottke.org</uri>
+            </author>
+            <content type="html" xml:lang="en" xml:base="http://kottke.org/">
+                <![CDATA[<p><iframe width="640" height="360" src="https://www.youtube.com/embed/sNUNB6CMnE8?rel=0" frameborder="0" allowfullscreen></iframe></p>
+
+        <p>All but a few humans have seen no more than half of the Moon with their own eyes. For the rest of us stuck on Earth, we only get to see the side that always faces the Earth because the Earth & Moon are <a href="https://en.wikipedia.org/wiki/Tidal_locking">tidally locked</a>; the Moon&#8217;s rotation about its axis and its orbit around the Earth take the same amount of time. But NASA&#8217;s LRO probe has taken high-resolution photos of all but 2% of the Moon&#8217;s surface, which have been stitched together into this video of the Moon&#8217;s full 360-degree rotation.</p>]]>
+
+        <![CDATA[ <strong>Tags:</strong> <a href="http://kottke.org/tag/astronomy">astronomy</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/Moon">Moon</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/NASA">NASA</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/physics">physics</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/science">science</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/space">space</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/video">video</a>]]>
+            </content>
+        </entry>
+
+        <entry>
+            <title>I&#8217;m With Her: designing Hillary Clinton&#8217;s campaign identity</title>
+            <link rel="alternate" type="text/html" href="http://kottke.org/17/03/im-with-her-designing-hillary-clintons-campaign-identity" />
+            <id>tag:kottke.org,2017://5.29759</id>
+
+            <published>2017-03-31T20:01:29Z</published>
+            <updated>2017-03-31T20:01:29Z</updated>
+
+            <author>
+                <name>Jason Kottke</name>
+                <uri>http://www.kottke.org</uri>
+            </author>
+            <content type="html" xml:lang="en" xml:base="http://kottke.org/">
+                <![CDATA[<p><img src="http://also.kottke.org/misc/images/hillary-logo-sketch.jpg" width="1000" height="695" border="0" alt="Hillary Logo Sketch" /></p>
+
+        <p>Pentagram&#8217;s Michael Bierut and his team designed <a href="http://www.underconsideration.com/brandnew/archives/new_logo_for_hillary_clinton_presidential_campaign.php">the identity</a> for Hillary Clinton&#8217;s 2016 Presidential campaign (of which I was not initially a fan but <a href="http://kottke.org/15/06/the-mighty-morphing-hillary-logo">came around later</a>). <a href="http://designobserver.com/feature/im-with-her/39523">Here&#8217;s how it happened</a>.</p>
+
+        <blockquote><p>I put together a three-person team: me, designer Jesse Reed, and project manager Julia Lemle. We would work in secret for the next two months. Our first meeting with the Clinton team began with a simple statement: &#8220;Our candidate has 100 percent name recognition.&#8221; There is a well-known marketing principle that is often credited to midcentury design legend Raymond Loewy. He felt that people were governed by two competing impulses: an attraction to the excitement of new things and a yearning for the comfort provided by what we already know. In response, Loewy had developed a reliable formula. If something was familiar, make it surprising. If something was surprising, make it familiar.</p>
+
+        <p>That same principle applies to political campaigns. In 2008 Sol Sender, Amanda Gentry and Andy Keene were faced with the challenge of branding a candidate who had anything but name recognition. Barack Obama&#8217;s design team responded with a quintessentially professional identity program, introducing &#8212; for the first time &#8212; the language of corporate branding to political marketing. Obama&#8217;s persona &#8212; unfamiliar, untested, and potentially alarming to much of the voting public &#8212; was given a polished logo and a perfectly executed, utterly consistent typographic system. In short, they made a surprising candidate seem familiar.</p>
+
+        <p>We faced the opposite problem. Our candidate was universally known. How could we make her image seem fresh and compelling?</p></blockquote>
+
+        <p>This is a great look at how a designer at the top of his game approaches a problem&#8230;and reckons with failure. Even this little bit:</p>
+
+        <blockquote><p>It wasn&#8217;t clever or artful. I didn&#8217;t care about that. I wanted something that you didn&#8217;t need a software tutorial to create, something as simple as a peace sign or a smiley face. I wanted a logo that a five-year-old could make with construction paper and kindergarten scissors.</p></blockquote>
+
+        <p>Leading up to the election, how many photos did you see of Hillary logos hand-drawn by kids on signs and t-shirts? Lots and lots&#8230;<a href="https://www.instagram.com/p/BEYXB1EkkKd/">my kids even got into the act</a>.</p>
+
+        <p>Anyway, a huge contrast to <a href="http://kottke.org/17/02/the-five-simple-things-to-remember-when-considering-trumps-motivations">the process and impact of the Trump campaign&#8217;s identity</a>.</p>]]>
+
+        <![CDATA[ <strong>Tags:</strong> <a href="http://kottke.org/tag/2016%20election">2016 election</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/branding">branding</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/design">design</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/Donald%20Trump">Donald Trump</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/Hillary%20Clinton">Hillary Clinton</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/logos">logos</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/Michael%20Bierut">Michael Bierut</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/politics">politics</a>]]>
+            </content>
+        </entry>
+
+        <entry>
+            <title>The facts, fears, and safety of GMO foods</title>
+            <link rel="alternate" type="text/html" href="http://kottke.org/17/03/the-facts-and-fears-of-gmo-foods" />
+            <id>tag:kottke.org,2017://5.29758</id>
+
+            <published>2017-03-31T18:06:03Z</published>
+            <updated>2017-03-31T18:06:03Z</updated>
+
+            <author>
+                <name>Jason Kottke</name>
+                <uri>http://www.kottke.org</uri>
+            </author>
+            <content type="html" xml:lang="en" xml:base="http://kottke.org/">
+                <![CDATA[<p><iframe width="640" height="360" src="https://www.youtube.com/embed/7TmcXYp8xu4?rel=0" frameborder="0" allowfullscreen></iframe></p>
+
+        <p>Kurzgesagt takes a look at the debate over genetically modified foods. Decades of scientific research plainly says that GMO foods are safe to consume, but that&#8217;s not the only issue.</p>
+
+        <blockquote><p>Over 90% of all cashed crops in the US are herbicide resistant, mostly to glyphosate. As a result, the use of glyphosate has increased greatly. That isn&#8217;t only bad, glyphosate is much less harmful to humans than many other herbicides. Still, this means famers have a strong incentive to rely on this one method only, casting more balanced ways of managing weeds aside.</p>
+
+        <p>That&#8217;s one of the most fundamental problems with the GMO debate. Much of the criticism of this technology is actually criticism of modern agriculture and a business practice of the huge corporations that control our food supply. This criticism is not only valid, it&#8217;s also important. We need to change agriculture to a more sustainable model.</p></blockquote>
+
+        <p>One thing is for certain&#8230;the debate online <a href="http://info.rightrelevance.com/gmos-jan17-twitter-analysis/">is polarized</a>.</p>]]>
+
+        <![CDATA[ <strong>Tags:</strong> <a href="http://kottke.org/tag/food">food</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/genetics">genetics</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/science">science</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/video">video</a>]]>
+            </content>
+        </entry>
+
+        <entry>
+            <title>Watch a near-pristine Apple I boot up and run a program</title>
+            <link rel="alternate" type="text/html" href="http://kottke.org/17/03/watch-a-near-pristine-apple-i-boot-up-and-run-a-program" />
+            <id>tag:kottke.org,2017://5.29757</id>
+
+            <published>2017-03-31T15:46:17Z</published>
+            <updated>2017-03-31T15:46:17Z</updated>
+
+            <author>
+                <name>Jason Kottke</name>
+                <uri>http://www.kottke.org</uri>
+            </author>
+            <content type="html" xml:lang="en" xml:base="http://kottke.org/">
+                <![CDATA[<p><iframe width="640" height="360" src="https://www.youtube.com/embed/AaIQFp_0Sbg?rel=0" frameborder="0" allowfullscreen></iframe></p>
+
+        <p>Glenn and Shannon Dellimore own at least two original Apple I computers built in 1976 by Steve Wozniak, Dan Kottke, and Steve Jobs. The couple recently purchased one of the computers <a href="https://www.bonhams.com/auctions/22964/lot/77/">at auction for $365,000</a> and then lent it to London&#8217;s Victoria and Albert Museum for an exhibition. The hand-built machine is in such good condition that they were able to boot it up and run a simple program.</p>
+
+        <blockquote><p>The superlative rarity of an Apple-1 in this condition is corroborated by this machine&#8217;s early history.The owner, Tom Romkey, owned the &#8220;Personal Computer Store&#8221; in Florida, and was certified as an Apple level 1 technician in 1981. One day, a customer came into his shop and traded in his Apple-1 computer for a brand new NCR Personal Computer. The customer had only used the Apple-1 once or twice, and Mr. Romkey set it on a shelf, and did not touch it again.</p></blockquote>
+
+        <p><a href="http://apple2history.org/history/ah02/">The Apple I</a> was the first modern personal computer: the whole thing fit on just one board and used the familiar keyboard/monitor input and output.</p>
+
+        <blockquote><p>By early 1976, Steve Wozniak had completed his 6502-based computer and would display enhancements or modifications at the bi-weekly Homebrew Computer Club meetings. Steve Jobs was a 21 year old friend of Wozniak&#8217;s and also a visitor at the Homebrew club. He had worked with Wozniak in the past (together they designed the arcade game &#8220;Breakout&#8221; for Atari) and was very interested in his computer. During the design process Jobs made suggestions that helped shape the final product, such as the use of the newer dynamic RAMs instead of older, more expensive static RAMs. He suggested to Wozniak that they get some printed circuit boards made for the computer and sell it at the club for people to assemble themselves. They pooled their financial resources together to have PC boards made, and on April 1st, 1976 they officially formed the Apple Computer Company. Jobs had recently worked at an organic apple orchard, and liked the name because &#8220;he thought of the apple as the perfect fruit &#8212; it has a high nutritional content, it comes in a nice package, it doesn&#8217;t damage easily &#8212; and he wanted Apple to be the perfect company. Besides, they couldn&#8217;t come up with a better name.&#8221;</p></blockquote>
+
+        <p>In other words, Woz invented the Apple computer, but Jobs invented Apple Computer. Here&#8217;s a longer video of another working Apple I:</p>
+
+        <p><iframe width="640" height="360" src="https://www.youtube.com/embed/rKiMPCRILpc" frameborder="0" allowfullscreen></iframe></p>
+
+        <p>This one is also in great condition, although it&#8217;s been restored and some of the original parts have been replaced. If you&#8217;d like to play around with your own Apple I without spending hundreds of thousands of dollars at an auction, I would recommend buying <a href="http://www.willegal.net/appleii/apple1-kit.htm">a replica kit</a> or trying out <a href="https://www.scullinsteel.com/apple1/">this emulator written in Javascript</a>. (thx, chris)</p>]]>
+
+        <![CDATA[ <strong>Tags:</strong> <a href="http://kottke.org/tag/Apple">Apple</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/computing">computing</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/Dan%20Kottke">Dan Kottke</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/Glenn%20Dellimore">Glenn Dellimore</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/Shannon%20Dellimore">Shannon Dellimore</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/Steve%20Jobs">Steve Jobs</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/Steve%20Wozniak">Steve Wozniak</a>]]>
+            </content>
+        </entry>
+
+        <entry>
+            <title>Crushed cans in the style of Ming dynasty ceramics</title>
+            <link rel="alternate" type="text/html" href="http://kottke.org/17/03/crushed-cans-in-the-style-of-ming-dynasty-ceramics" />
+            <id>tag:kottke.org,2017://5.29756</id>
+
+            <published>2017-03-31T14:04:21Z</published>
+            <updated>2017-03-31T14:04:21Z</updated>
+
+            <author>
+                <name>Jason Kottke</name>
+                <uri>http://www.kottke.org</uri>
+            </author>
+            <content type="html" xml:lang="en" xml:base="http://kottke.org/">
+                <![CDATA[<p><img src="http://also.kottke.org/misc/images/lei-xue-01.jpg" width="1400" height="934" border="0" alt="Lei Xue" /></p>
+
+        <p><img src="http://also.kottke.org/misc/images/lei-xue-02.jpg" width="1400" height="1034" border="0" alt="Lei Xue" /></p>
+
+        <p>Chinese sculptor <a href="https://www.artsy.net/artist/lei-xue">Lei Xue</a> has made <a href="http://www.thisiscolossal.com/2017/03/smashed-porcelain-cans-lei-xue/">these crushed cans in the style of Ming dynasty pottery</a>.</p>
+
+        <blockquote><p>The pieces are part of an ongoing series titled Drinking Tea, and unlike the mechanical process of producing cans, each object is sculpted and painted by hand.</p></blockquote>
+
+        <p>So good! See also <a href="http://kottke.org/15/04/the-ingenious-design-of-the-aluminum-beverage-can">the ingenious design of the aluminum beverage can</a>.</p>]]>
+
+        <![CDATA[ <strong>Tags:</strong> <a href="http://kottke.org/tag/art">art</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/Lei%20Xue">Lei Xue</a>]]>
+            </content>
+        </entry>
+
+        <entry>
+            <title>Tabitha Soren documented in photos what happened after Moneyball</title>
+            <link rel="alternate" type="text/html" href="http://kottke.org/17/03/tabitha-soren-documented-in-photos-what-happened-after-moneyball" />
+            <id>tag:kottke.org,2017://5.29738</id>
+
+            <published>2017-03-30T21:30:00Z</published>
+            <updated>2017-03-30T21:30:00Z</updated>
+
+            <author>
+                <name>Jason Kottke</name>
+                <uri>http://www.kottke.org</uri>
+            </author>
+            <content type="html" xml:lang="en" xml:base="http://kottke.org/">
+                <![CDATA[<p><img src="http://also.kottke.org/misc/images/tabitha-soren-baseball.jpg" width="1000" height="788" border="0" alt="Tabitha Soren Baseball" /></p>
+
+        <p><a href="http://www.tabithasoren.com/">Tabitha Soren</a>, who you may remember as a reporter for MTV News, has for the past number of years been working as a photographer. One of her projects <a href="https://www.washingtonpost.com/entertainment/after-moneyball-tabitha-soren-kept-shooting-the-results-are-stunning/2017/03/23/cbd5436c-0cf0-11e7-ab07-07d9f521f6b5_story.html">began more than 13 years ago</a> as she accompanied her husband Michael Lewis on his visits to the Oakland A&#8217;s while working on <a href="https://www.amazon.com/exec/obidos/ASIN/0393324818/ref=nosim/0sil8">Moneyball</a>. After the book was published, Soren kept returning to photograph the up-and-coming players Lewis had profiled, following their careers as they either made it in the big leagues or didn&#8217;t.</p>
+
+        <blockquote><p>Since then, she has followed the players through their baseball lives, an alternate reality of long bus rides, on-field injuries, friendships and marriages entered and exited, constant motion, and very hard work, often for very little return. Some of the subjects, like Nick Swisher and Joe Blanton, have gone on to become well-known, respected players at the highest level of the game. Some left baseball to pursue other lines of work, such as selling insurance and coal mining. Others have struggled with poverty and even homelessness.</p></blockquote>
+
+        <p>The culmination of the project was a gallery show called <a href="http://www.tabithasoren.com/fantasy-life-gallery">Fantasy Life</a>, which is <a href="https://www.amazon.com/exec/obidos/ASIN/1597113859/ref=nosim/0sil8">now being released as a book</a>.</p>]]>
+
+        <![CDATA[ <strong>Tags:</strong> <a href="http://kottke.org/tag/baseball">baseball</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/books">books</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/Fantasy%20Life">Fantasy Life</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/Michael%20Lewis">Michael Lewis</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/Moneyball">Moneyball</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/photography">photography</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/sports">sports</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/Tabitha%20Soren">Tabitha Soren</a>]]>
+            </content>
+        </entry>
+
+        <entry>
+            <title>At a spa in Japan, you can get a back massage from a cat</title>
+            <link rel="alternate" type="text/html" href="http://kottke.org/17/03/at-a-spa-in-japan-you-can-get-a-back-massage-from-a-cat" />
+            <id>tag:kottke.org,2017://5.29742</id>
+
+            <published>2017-03-30T18:14:47Z</published>
+            <updated>2017-03-30T18:14:47Z</updated>
+
+            <author>
+                <name>Jason Kottke</name>
+                <uri>http://www.kottke.org</uri>
+            </author>
+            <content type="html" xml:lang="en" xml:base="http://kottke.org/">
+                <![CDATA[<p><iframe width="640" height="360" src="https://www.youtube.com/embed/C8FGBRUw46Y?rel=0" frameborder="0" allowfullscreen></iframe></p>
+
+        <p>Don&#8217;t know about you, but I need a cat massage right now. You can&#8217;t hear it, but I bet that cat is purring big time as well. (My pal <a href="https://twitter.com/mathowie">Matt</a> was the first person I&#8217;d heard refer to cat kneading as &#8220;making muffins&#8221;, which is an essentially perfect and cute description. He also calls when a cat sits with all four of its paws tucked up underneath it &#8220;loaf-a-kitty&#8221;. Again, cute and perfect.)</p>]]>
+
+        <![CDATA[ <strong>Tags:</strong> <a href="http://kottke.org/tag/Japan">Japan</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/video">video</a>]]>
+            </content>
+        </entry>
+
+        <entry>
+            <title>Recreating history for the movies</title>
+            <link rel="alternate" type="text/html" href="http://kottke.org/17/03/recreating-history-for-the-movies" />
+            <id>tag:kottke.org,2017://5.29747</id>
+
+            <published>2017-03-30T15:48:06Z</published>
+            <updated>2017-03-30T15:48:06Z</updated>
+
+            <author>
+                <name>Jason Kottke</name>
+                <uri>http://www.kottke.org</uri>
+            </author>
+            <content type="html" xml:lang="en" xml:base="http://kottke.org/">
+                <![CDATA[<p><iframe width="640" height="360" src="https://www.youtube.com/embed/32bgZwqSigM?rel=0" frameborder="0" allowfullscreen></iframe></p>
+
+        <p>For movies based on historical events, getting the details right can be essential in convincing the audience they&#8217;re watching something meaningful and important, particularly if the real-world scenes are iconic. But often, historical happenings are changed to make scenes more cinematically effective. This video shows several historical events coupled with their cinematic recreations in films like Jackie, Into the Wild, JFK, Catch Me If You Can, and Selma.</p>]]>
+
+        <![CDATA[ <strong>Tags:</strong> <a href="http://kottke.org/tag/movies">movies</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/video">video</a>]]>
+            </content>
+        </entry>
+
+        <entry>
+            <title>Mixtape Volume 10 from The Hood Internet</title>
+            <link rel="alternate" type="text/html" href="http://kottke.org/17/03/mixtape-volume-10-from-the-hood-internet" />
+            <id>tag:kottke.org,2017://5.29753</id>
+
+            <published>2017-03-30T13:46:40Z</published>
+            <updated>2017-03-30T13:46:40Z</updated>
+
+            <author>
+                <name>Jason Kottke</name>
+                <uri>http://www.kottke.org</uri>
+            </author>
+            <content type="html" xml:lang="en" xml:base="http://kottke.org/">
+                <![CDATA[<p><iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/313348171&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe></p>
+
+        <p>The Hood Internet has been pumping out mashups of rap, hip hop, electronic, and indie rock songs for 10 years now. For <a href="http://www.thehoodinternet.com/#/tmv10/">the 10th installment of their annual mixtape</a>, they have compiled a list of their greatest hits.</p>
+
+        <blockquote><p>It&#8217;s now 2017 and here we are with The Mixtape Volume Ten, aaaand wait. What&#8217;s with the subtitle &#8212; Best of The Hood Internet &#8212; is this some sort of greatest hits album from, uh, a website that DJs? Really? Yes. It is exactly that. Much like the first mixtape was a best-of everything we&#8217;d made to that point, this ten-year retrospective is 50 of our best blends (blends! there&#8217;s another synonym for you) from the catalog that we&#8217;ve willed into existence over the last decade. Listen to it, enjoy it or hate it, and together let&#8217;s all mourn the ten-year anniversary of the death of mashups.</p></blockquote>
+
+        <p>Here&#8217;s to 10 more years! (via <a href="https://twitter.com/j_blackburn">@j_blackburn</a>)</p>]]>
+
+        <![CDATA[ <strong>Tags:</strong> <a href="http://kottke.org/tag/music">music</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/remix">remix</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/The%20Hood%20Internet">The Hood Internet</a>]]>
+            </content>
+        </entry>
+
+        <entry>
+            <title>The Ballad of Holland Island House</title>
+            <link rel="alternate" type="text/html" href="http://kottke.org/17/03/the-ballad-of-holland-island-house" />
+            <id>tag:kottke.org,2017://5.29746</id>
+
+            <published>2017-03-29T19:20:22Z</published>
+            <updated>2017-03-29T19:20:22Z</updated>
+
+            <author>
+                <name>Jason Kottke</name>
+                <uri>http://www.kottke.org</uri>
+            </author>
+            <content type="html" xml:lang="en" xml:base="http://kottke.org/">
+                <![CDATA[<p><iframe src="https://player.vimeo.com/video/123155966" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></p>
+
+        <p><a href="http://www.lynntomlinson.com/hollandislandhouse/">The Ballad of Holland Island House</a> was created by animator Lynn Tomlinson using a clay-on-glass painting technique.</p>
+
+        <blockquote><p>The Ballad of Holland Island House is a short animation made with an innovative clay-painting technique in which a thin layer of oil-based clay comes to vibrant life frame by frame. Animator Lynn Tomlinson tells the true story of the last house on a sinking island in the Chesapeake Bay. Told from the house&#8217;s point of view, this film is a soulful and haunting view of the impact of sea-level rise.</p></blockquote>
+
+        <p>The technique is a hybrid of traditional cel animation (traditionally done on transparent sheets) and claymation stop-motion animation.</p>]]>
+
+        <![CDATA[ <strong>Tags:</strong> <a href="http://kottke.org/tag/animation">animation</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/Lynn%20Tomlinson">Lynn Tomlinson</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/stop%20motion">stop motion</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/video">video</a>]]>
+            </content>
+        </entry>
+
+        <entry>
+            <title>The satirical origins of the meritocracy</title>
+            <link rel="alternate" type="text/html" href="http://kottke.org/17/03/the-satirical-origins-of-the-meritocracy" />
+            <id>tag:kottke.org,2017://5.29735</id>
+
+            <published>2017-03-29T17:19:41Z</published>
+            <updated>2017-03-29T17:19:41Z</updated>
+
+            <author>
+                <name>Jason Kottke</name>
+                <uri>http://www.kottke.org</uri>
+            </author>
+            <content type="html" xml:lang="en" xml:base="http://kottke.org/">
+                <![CDATA[<p>In 1958, Michael Young published a book called <a href="https://www.amazon.com/exec/obidos/ASIN/1560007044/ref=nosim/0sil8">The Rise of the Meritocracy</a> as a satirical criticism of the concept of meritocracy. <a href="https://en.wikipedia.org/wiki/The_Rise_of_the_Meritocracy">From Wikipedia</a>:</p>
+
+        <blockquote><p>It describes a dystopian society in a future United Kingdom in which intelligence and merit have become the central tenet of society, replacing previous divisions of social class and creating a society stratified between a merited power holding elite and a disenfranchised underclass of the less merited.</p></blockquote>
+
+        <p>In 2001, <a href="https://www.theguardian.com/politics/2001/jun/29/comment">Young wrote a piece for The Guardian</a> about his disappointment that the satire had been stripped away from his term and embraced by an elite using it to justify their status.</p>
+
+        <blockquote><p>The business meritocracy is in vogue. If meritocrats believe, as more and more of them are encouraged to, that their advancement comes from their own merits, they can feel they deserve whatever they can get.</p>
+
+        <p>They can be insufferably smug, much more so than the people who knew they had achieved advancement not on their own merit but because they were, as somebody&#8217;s son or daughter, the beneficiaries of nepotism. The newcomers can actually believe they have morality on their side.</p>
+
+        <p>So assured have the elite become that there is almost no block on the rewards they arrogate to themselves. The old restraints of the business world have been lifted and, as the book also predicted, all manner of new ways for people to feather their own nests have been invented and exploited.</p>
+
+        <p>Salaries and fees have shot up. Generous share option schemes have proliferated. Top bonuses and golden handshakes have multiplied.</p>
+
+        <p>As a result, general inequality has been becoming more grievous with every year that passes, and without a bleat from the leaders of the party who once spoke up so trenchantly and characteristically for greater equality.</p></blockquote>
+
+        <p>Perhaps the tide seems to be turning slightly of late, but the meritocracy is thrown around pretty regularly in Silicon Valley as a justification for all sorts of things. Maybe the problem is the Valley doesn&#8217;t understand satire&#8230;after all, they invented a food product called Soylent. (via <a href="https://twitter.com/mulegirl">@mulegirl</a>)</p>]]>
+
+        <![CDATA[ <strong>Tags:</strong> <a href="http://kottke.org/tag/books">books</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/Michael%20Young">Michael Young</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/The%20Rise%20of%20the%20Meritocracy">The Rise of the Meritocracy</a>]]>
+            </content>
+        </entry>
+
+        <entry>
+            <title>Why are knights pictured fighting snails in medieval manuscripts?</title>
+            <link rel="alternate" type="text/html" href="http://kottke.org/17/03/why-are-knights-pictured-fighting-snails-in-medieval-manuscripts" />
+            <id>tag:kottke.org,2017://5.29748</id>
+
+            <published>2017-03-29T15:20:37Z</published>
+            <updated>2017-03-29T15:20:37Z</updated>
+
+            <author>
+                <name>Jason Kottke</name>
+                <uri>http://www.kottke.org</uri>
+            </author>
+            <content type="html" xml:lang="en" xml:base="http://kottke.org/">
+                <![CDATA[<p><iframe width="640" height="360" src="https://www.youtube.com/embed/6ISOK-XtvYs?rel=0" frameborder="0" allowfullscreen></iframe></p>
+
+        <p>Snails, particularly those shown in combat with knights, show up in the margins of medieval manuscripts copied around the turn of the 14th century&#8230;a sort of medieval meme that spread among scribes. In this video, Phil Edwards investigates what&#8217;s going on with those snails, drawing upon the work of Lilian Randall in <a href="https://www.scribd.com/document/263159779/The-Snail-in-Gothic-Marginal-Warfare">The Snail in Gothic Marginal Warfare</a> (a corker of a title for an academic work, to be sure).</p>]]>
+
+        <![CDATA[ <strong>Tags:</strong> <a href="http://kottke.org/tag/books">books</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/Lilian%20Randall">Lilian Randall</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/Phil%20Edwards">Phil Edwards</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/video">video</a>]]>
+            </content>
+        </entry>
+
+        <entry>
+            <title>Meet this season&#8217;s hot new clouds</title>
+            <link rel="alternate" type="text/html" href="http://kottke.org/17/03/meet-this-seasons-hot-new-clouds" />
+            <id>tag:kottke.org,2017://5.29745</id>
+
+            <published>2017-03-29T14:01:28Z</published>
+            <updated>2017-03-29T14:01:28Z</updated>
+
+            <author>
+                <name>Jason Kottke</name>
+                <uri>http://www.kottke.org</uri>
+            </author>
+            <content type="html" xml:lang="en" xml:base="http://kottke.org/">
+                <![CDATA[<p><img src="http://also.kottke.org/misc/images/new-clouds-01.jpg" width="1400" height="1050" border="0" alt="New clouds" /></p>
+
+        <p><img src="http://also.kottke.org/misc/images/new-clouds-02.jpg" width="1400" height="1050" border="0" alt="New clouds" /></p>
+
+        <p>For the first time in 30 years, the world&#8217;s cloud authority has classified a dozen new types of cloud. You can find them in <a href="https://www.wmocloudatlas.org/">the International Cloud Atlas</a>, published by the World Meteorological Organization.</p>
+
+        <blockquote><p>The existing classifications have been reviewed and all have been retained. Several new, formal cloud classifications have been introduced. These include one new species (volutus), five new supplementary features (asperitas, cauda, cavum, fluctus and murus), and one new accessory cloud (flumen). The species floccus has been formally recognized as being able to occur in association with stratocumulus. The separate section on Special Clouds has been removed, and the cloud and meteor types previously discussed within this section have been integrated into the cloud classification scheme as cataractagenitus, flammagenitus, homogenitus, silvagenitus, and homomutatus.</p></blockquote>
+
+        <p>The cloud in the second photo is <a href="https://www.wmocloudatlas.org/clouds-supplementary-features-cavum.html">a cavum cloud</a>, which is not so much a cloud itself as a hole in a altocumulus or cirrocumulus cloud. The cloud in the top photo, the one that looks like a van Gogh painting, is <a href="https://www.wmocloudatlas.org/clouds-supplementary-features-asperitas.html">an asperitas</a> (formerly known as undulatus asperatus). The asperitas is best seen in motion:</p>
+
+        <p><iframe width="640" height="360" src="https://www.youtube.com/embed/Jz7BgxrVmiQ?rel=0" frameborder="0" allowfullscreen></iframe></p>]]>
+
+        <![CDATA[ <strong>Tags:</strong> <a href="http://kottke.org/tag/clouds">clouds</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/video">video</a>]]>
+            </content>
+        </entry>
+
+        <entry>
+            <title>Strange Beasts, a sci-fi short about an augmented reality game</title>
+            <link rel="alternate" type="text/html" href="http://kottke.org/17/03/strange-beasts-a-sci-fi-short-about-an-augmented-reality-game" />
+            <id>tag:kottke.org,2017://5.29740</id>
+
+            <published>2017-03-28T20:27:41Z</published>
+            <updated>2017-03-28T20:27:41Z</updated>
+
+            <author>
+                <name>Jason Kottke</name>
+                <uri>http://www.kottke.org</uri>
+            </author>
+            <content type="html" xml:lang="en" xml:base="http://kottke.org/">
+                <![CDATA[<p><iframe src="https://player.vimeo.com/video/209070629" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></p>
+
+        <p>Magali Barb&eacute; wrote and directed this short sci-fi video about an imaginary augmented reality game called Strange Beasts. It starts off with a &#8220;hey, yeah, cool, augemented reality games are going to be fun to play&#8221; vibe but gradually veers down the same dystopian path as a lot of augmented reality fictions (like <a href="http://kottke.org/16/05/hyper-reality">Keiichi Matsuda&#8217;s Hyper-Reality</a>). Barb&eacute; wrote about <a href="http://cargocollective.com/magalibarbe/Strange-Beasts">how the video was created</a>.</p>]]>
+
+        <![CDATA[ <strong>Tags:</strong> <a href="http://kottke.org/tag/Magali%20Barbe">Magali Barbe</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/video">video</a>]]>
+            </content>
+        </entry>
+
+        <entry>
+            <title>The Tinderization of the NBA</title>
+            <link rel="alternate" type="text/html" href="http://kottke.org/17/03/the-tinderization-of-the-nba" />
+            <id>tag:kottke.org,2017://5.29736</id>
+
+            <published>2017-03-28T18:47:20Z</published>
+            <updated>2017-03-28T18:47:20Z</updated>
+
+            <author>
+                <name>Jason Kottke</name>
+                <uri>http://www.kottke.org</uri>
+            </author>
+            <content type="html" xml:lang="en" xml:base="http://kottke.org/">
+                <![CDATA[<p>Since the late 1980s, the winning percentage of road teams has been rising in the NBA. After speaking to dozens of players, coaches, and team officials, <a href="http://www.espn.com/nba/story/_/page/presents18969358/tinderization-today-nba">Tom Haberstroh found a fairly accepted answer</a>: &#8220;NBA players are sleeping more and drinking less&#8221;. Players are taking their careers more seriously and partying less on the road while transportation coordination has improved. Ubiquitous cameras and big sponsorships keep bad behavior in check. An additional factor is that with apps like Tinder and Instagram, companionship can be delivered to a player&#8217;s hotel room like Seamless or Postmates without the need to drink at the club for a few hours beforehand.</p>
+
+        <blockquote><p>Indeed, various apps have done for sex in the NBA what Amazon has done for books. One no longer needs to leave home to find a party. The party now comes to you. And lifestyle judgments aside, the NBA road life is simply more efficient &#8212; and less taxing &#8212; when there aren&#8217;t open hours spent trolling clubs.</p>
+
+        <p>&#8220;It&#8217;s absolutely true that you get at least two hours more sleep getting laid on the road today versus 15 years ago,&#8221; says one former All-Star, who adds that players actually prefer Instagram to Tinder when away from home. &#8220;No schmoozing. No going out to the club. No having to get something to eat after the club but before the hotel.&#8221;</p>
+
+        <p>The NBA player staring at a 9:30 a.m. team breakfast in a hotel conference room the morning of the game can now log seven or eight hours of z&#8217;s and still enjoy a tryst. Thanks to direct messaging and texting, some NBA players even arrange to have keys left at the front desk so dates can be inside the room when a player arrives at the hotel.</p></blockquote>
+
+        <p>As Haberstroh says further down in the article, &#8220;Partying is the midrange jumper of nightlife.&#8221; (via <a href="http://marginalrevolution.com/">mr</a>)</p>]]>
+
+        <![CDATA[ <strong>Tags:</strong> <a href="http://kottke.org/tag/basketball">basketball</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/Instagram">Instagram</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/NBA">NBA</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/sports">sports</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/Tinder">Tinder</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/Tom%20Haberstroh">Tom Haberstroh</a>]]>
+            </content>
+        </entry>
+
+        <entry>
+            <title>Daft Punk samples and their sources</title>
+            <link rel="alternate" type="text/html" href="http://kottke.org/17/03/daft-punk-samples-and-their-sources" />
+            <id>tag:kottke.org,2017://5.29698</id>
+
+            <published>2017-03-28T16:38:48Z</published>
+            <updated>2017-03-28T16:38:48Z</updated>
+
+            <author>
+                <name>Jason Kottke</name>
+                <uri>http://www.kottke.org</uri>
+            </author>
+            <content type="html" xml:lang="en" xml:base="http://kottke.org/">
+                <![CDATA[<p><iframe width="640" height="360" src="https://www.youtube.com/embed/Mxu3Q29rEU4?rel=0" frameborder="0" allowfullscreen></iframe></p>
+
+        <p>Daft Punk creates their songs by extensively sampling records, mostly from the 70s and 80s. In some cases, bits of song are used relatively unchanged while others are chopped up and repeated to the point of being unrecognizable. Here are a few of the group&#8217;s samples compared with their original sources.</p>
+
+        <p>See also the duo&#8217;s <a href="https://open.spotify.com/album/7u6zL7kqpgLPISZYXNTgYk">Alive 2007 live album</a>, which I have been listening to extensively lately.</p>
+
+        <p><strong>Update:</strong> The video I&#8217;d originally linked to got taken down but I replaced it with another one. <a href="https://www.youtube.com/watch?v=w8Ndijo2ysM">Here&#8217;s another one as well</a>.</p>]]>
+
+        <![CDATA[ <strong>Tags:</strong> <a href="http://kottke.org/tag/Daft%20Punk">Daft Punk</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/music">music</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/remix">remix</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/video">video</a>]]>
+            </content>
+        </entry>
+
+        <entry>
+            <title>George Saunders on &#8220;what writers really do when they write&#8221;</title>
+            <link rel="alternate" type="text/html" href="http://kottke.org/17/03/george-saunders-on-what-writers-really-do-when-they-write" />
+            <id>tag:kottke.org,2017://5.29726</id>
+
+            <published>2017-03-28T14:20:13Z</published>
+            <updated>2017-03-28T14:20:13Z</updated>
+
+            <author>
+                <name>Jason Kottke</name>
+                <uri>http://www.kottke.org</uri>
+            </author>
+            <content type="html" xml:lang="en" xml:base="http://kottke.org/">
+                <![CDATA[<p>From The Guardian, <a href="https://www.theguardian.com/books/2017/mar/04/what-writers-really-do-when-they-write">a typically illuminating piece from George Saunders</a> on how he approaches writing&#8230;and more specifically how he approached writing <a href="https://www.amazon.com/exec/obidos/ASIN/0812995341/ref=nosim/0sil8">a novel</a> after so many years of writing short stories. Regarding the writer/reader connection:</p>
+
+        <blockquote><p>This is a hopeful notion, because it implies that our minds are built on common architecture &#8212; that whatever is present in me might also be present in you. &#8220;I&#8221; might be a 19th-century Russian count, &#8220;you&#8221; a part-time Walmart clerk in 2017, in Boise, Idaho, but when you start crying at the end of my (Tolstoy&#8217;s) story &#8220;Master and Man&#8221;, you have proved that we have something in common, communicable across language and miles and time, and despite the fact that one of us is dead.</p>
+
+        <p>Another reason you&#8217;re crying: you&#8217;ve just realised that Tolstoy thought well of you &#8212; he believed that his own notions about life here on earth would be discernible to you, and would move you.</p>
+
+        <p>Tolstoy imagined you generously, you rose to the occasion.</p></blockquote>]]>
+
+        <![CDATA[ <strong>Tags:</strong> <a href="http://kottke.org/tag/George%20Saunders">George Saunders</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/writing">writing</a>]]>
+            </content>
+        </entry>
+
+        <entry>
+            <title>I wuv you wobot!</title>
+            <link rel="alternate" type="text/html" href="http://kottke.org/17/03/i-wuv-you-wobot" />
+            <id>tag:kottke.org,2017://5.29733</id>
+
+            <published>2017-03-28T01:28:56Z</published>
+            <updated>2017-03-28T01:28:56Z</updated>
+
+            <author>
+                <name>Jason Kottke</name>
+                <uri>http://www.kottke.org</uri>
+            </author>
+            <content type="html" xml:lang="en" xml:base="http://kottke.org/">
+                <![CDATA[<p><iframe width="640" height="360" src="https://www.youtube.com/embed/h1E-FlguwGw?rel=0" frameborder="0" allowfullscreen></iframe></p>
+
+        <p>Rayna is a small child who thinks this hot water heater looks like a robot and she is determined to say hi to it and tell it that she loves it. THIS IS THE CUTEST THING OF ALL TIME THAT IS NOT THAT PHOTO OF OTTERS HOLDING HANDS SO THEY DON&#8217;T DRIFT AWAY FROM EACH OTHER WHILE SLEEPING. In the future, when humanity is on trial for <a href="http://kottke.org/16/02/giant-new-robot-excels-at-taking-human-abuse">the mistreatment of machines</a>, our randomly assigned legal algorithm will introduce this video as Exhibit A in our defense. I like our chances.</p>]]>
+
+        <![CDATA[ <strong>Tags:</strong> <a href="http://kottke.org/tag/robots">robots</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/video">video</a>]]>
+            </content>
+        </entry>
+
+        <entry>
+            <title>&#8220;Camera falls from airplane and lands in pig pen&#8221;</title>
+            <link rel="alternate" type="text/html" href="http://kottke.org/17/03/camera-falls-from-airplane-and-lands-in-pig-pen" />
+            <id>tag:kottke.org,2017://5.29729</id>
+
+            <published>2017-03-27T23:39:31Z</published>
+            <updated>2017-03-27T23:39:31Z</updated>
+
+            <author>
+                <name>Jason Kottke</name>
+                <uri>http://www.kottke.org</uri>
+            </author>
+            <content type="html" xml:lang="en" xml:base="http://kottke.org/">
+                <![CDATA[<p><iframe width="640" height="360" src="https://www.youtube.com/embed/QrxPuk0JefA?rel=0" frameborder="0" allowfullscreen></iframe></p>
+
+        <p>The title of this video is &#8220;Camera falls from airplane and lands in pig pen&#8212;MUST WATCH END!!&#8221; and there is literally nothing else I can say to entice you to watch it if you&#8217;re not already hooked by that.</p>]]>
+
+        <![CDATA[ <strong>Tags:</strong> <a href="http://kottke.org/tag/video">video</a>]]>
+            </content>
+        </entry>
+
+        <entry>
+            <title>Bill Hayes adored Oliver Sacks</title>
+            <link rel="alternate" type="text/html" href="http://kottke.org/17/03/bill-hayes-adored-oliver-sacks" />
+            <id>tag:kottke.org,2017://5.29731</id>
+
+            <published>2017-03-27T18:55:04Z</published>
+            <updated>2017-03-27T18:55:04Z</updated>
+
+            <author>
+                <name>Jason Kottke</name>
+                <uri>http://www.kottke.org</uri>
+            </author>
+            <content type="html" xml:lang="en" xml:base="http://kottke.org/">
+                <![CDATA[<p>The Guardian has <a href="https://www.theguardian.com/books/2017/mar/26/bill-hayes-insomniac-city-my-life-with-oliver-sacks-new-york">an entertaining and touching excerpt</a> of Bill Hayes&#8217; memoir <a href="https://www.amazon.com/exec/obidos/ASIN/1620404931/ref=nosim/0sil8">Insomniac City</a> about his moving to New York and his relationship with Oliver Sacks. Even though Sacks had little interest or knowledge about popular culture &#8212; &#8220;&#8216;What is Michael Jackson?&#8217; he asked me the day after the news [of Jackson&#8217;s death]&#8221; &#8212; he became part of it, and so he and Hayes travel to Iceland to dine with Bj&ouml;rk and run into the actress and model Lauren Hutton at a concert.</p>
+
+        <blockquote><p>[Hutton] overheard Oliver talking to Kevin about his new book, Hallucinations, which was coming out in a couple weeks. Lauren leaned across the table and listened intently.</p>
+
+        <p>&#8220;Hey doc, you ever done belladonna?&#8221; she asked. &#8220;Now there&#8217;s a drug!&#8221;</p>
+
+        <p>&#8220;Well, as a matter of fact, yes, I have,&#8221; and he proceeded to tell her about his hallucinations on belladonna. They traded stories. Eventually she began to figure out that this wasn&#8217;t his first book.</p>
+
+        <p>&#8220;Are you &#8212; are you Oliver Sacks? The Oliver Sacks?&#8221; Oliver looked both pleased and stricken.</p>
+
+        <p>&#8220;Well, it is very good to meet you, sir.&#8221; She sounded like a southern barmaid in a 50s western. But it wasn&#8217;t an act. &#8220;I&#8217;ve been reading you since way back. Oliver Sacks - imagine that!&#8221;</p>
+
+        <p>Oliver, I should note, had absolutely no idea who she was, nor would he understand if I had pulled him aside and told him.</p>
+
+        <p>Fashion? Vogue magazine? No idea&#8230;</p>
+
+        <p>The two of them hit it off. She was fast-talking, bawdy, opinionated, a broad - the opposite of Oliver except for having in common that mysterious quality: charm.</p></blockquote>
+
+        <p>See also <a href="https://www.nytimes.com/2015/02/19/opinion/oliver-sacks-on-learning-he-has-terminal-cancer.html">My Own Life</a>, a piece about the cancer diagnosis that would eventually take Sacks&#8217; life.</p>
+
+        <blockquote><p>Over the last few days, I have been able to see my life as from a great altitude, as a sort of landscape, and with a deepening sense of the connection of all its parts. This does not mean I am finished with life.</p>
+
+        <p>On the contrary, I feel intensely alive, and I want and hope in the time that remains to deepen my friendships, to say farewell to those I love, to write more, to travel if I have the strength, to achieve new levels of understanding and insight.</p>
+
+        <p>This will involve audacity, clarity and plain speaking; trying to straighten my accounts with the world. But there will be time, too, for some fun (and even some silliness, as well).</p></blockquote>
+
+        <p>Sacks dictated the piece to Hayes &#8220;nearly verbatim&#8221; and is very much worth a re-read. (via <a href="https://twitter.com/tedgioia">@tedgioia</a>)</p>]]>
+
+        <![CDATA[ <strong>Tags:</strong> <a href="http://kottke.org/tag/Bill%20Hayes">Bill Hayes</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/Bjork">Bjork</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/books">books</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/crying%20at%20work">crying at work</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/death">death</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/Insomniac%20City">Insomniac City</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/Lauren%20Hutton">Lauren Hutton</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/Oliver%20Sacks">Oliver Sacks</a>]]>
+            </content>
+        </entry>
+
+        <entry>
+            <title>A timeline map of the global median age from 1960-2060</title>
+            <link rel="alternate" type="text/html" href="http://kottke.org/17/03/a-timeline-map-of-the-global-median-age-from-1960-2060" />
+            <id>tag:kottke.org,2017://5.29727</id>
+
+            <published>2017-03-27T17:12:09Z</published>
+            <updated>2017-03-27T17:12:09Z</updated>
+
+            <author>
+                <name>Jason Kottke</name>
+                <uri>http://www.kottke.org</uri>
+            </author>
+            <content type="html" xml:lang="en" xml:base="http://kottke.org/">
+                <![CDATA[<p><iframe width="640" height="360" src="https://www.youtube.com/embed/QER6aOIEaOI?rel=0" frameborder="0" allowfullscreen></iframe></p>
+
+        <p>From <a href="https://about.me/aronstrandberg">Aron Strandberg</a>,<sup id="fnref:1490616798"><a href="#fn:1490616798" rel="footnote">1</a></sup> this is a timeline visualization of the age of the world&#8217;s population from 1960-2060. <a href="http://www.worldometers.info/world-population/">The world&#8217;s human population</a> has increased rapidly in the last couple centuries, most recently doubling since 1970:</p>
+
+        <blockquote><p>A tremendous change occurred with the industrial revolution: whereas it had taken all of human history until around 1800 for world population to reach one billion, the second billion was achieved in only 130 years (1930), the third billion in less than 30 years (1959), the fourth billion in 15 years (1974), and the fifth billion in only 13 years (1987).</p></blockquote>
+
+        <p>But watching that video, you&#8217;ll realize that the world&#8217;s population will not reach 20 or 30 billion in 2050 &#8212; human civilization is getting old.</p>
+
+        <ol><li class="footnote" id="fn:1490616798"><p>Strandberg was also recently in charge of <a href="https://twitter.com/sweden">Sweden&#8217;s Twitter account</a>, which they hand over to a random Swedish person each week. That&#8217;s where <a href="https://twitter.com/sweden/status/845446049477091330">I found his chart</a>.<a href="#fnref:1490616798" title="return to article">&#x21A9;</a><p></li></ol>]]>
+
+        <![CDATA[ <strong>Tags:</strong> <a href="http://kottke.org/tag/Aron%20Strandberg">Aron Strandberg</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/infoviz">infoviz</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/maps">maps</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/population">population</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/timelines">timelines</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/video">video</a>]]>
+            </content>
+        </entry>
+
+        <entry>
+            <title>Three Billboards Outside Ebbing Missouri</title>
+            <link rel="alternate" type="text/html" href="http://kottke.org/17/03/three-billboards-outside-ebbing-missouri" />
+            <id>tag:kottke.org,2017://5.29728</id>
+
+            <published>2017-03-27T15:48:29Z</published>
+            <updated>2017-03-27T15:48:29Z</updated>
+
+            <author>
+                <name>Jason Kottke</name>
+                <uri>http://www.kottke.org</uri>
+            </author>
+            <content type="html" xml:lang="en" xml:base="http://kottke.org/">
+                <![CDATA[<p><iframe width="640" height="360" src="https://www.youtube.com/embed/Jit3YhGx5pU?rel=0" frameborder="0" allowfullscreen></iframe></p>
+
+        <p>From director Martin McDonagh, who is also responsible for In Bruges, comes <a href="https://en.wikipedia.org/wiki/Three_Billboards_Outside_Ebbing,_Missouri">Three Billboards Outside Ebbing Missouri</a>. Frances McDormand stars and even in the trailer, she is a force of nature. (No offense to Meryl Streep, but McDormand is a very strong candidate for the best actor or actress working today.) The red band trailer above is entertaining in its use of many of <a href="https://en.wikipedia.org/wiki/Seven_dirty_words">George Carlin&#8217;s seven dirty words</a> but I prefer the more conventional trailer I saw in the theater the other day &#8212; which I cannot locate online for some reason &#8212; because, among other reasons, it contains more Peter Dinklage.</p>]]>
+
+        <![CDATA[ <strong>Tags:</strong> <a href="http://kottke.org/tag/Frances%20McDormand">Frances McDormand</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/Martin%20McDonagh">Martin McDonagh</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/movies">movies</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/Three%20Billboards%20Outside%20Ebbing%20Missouri">Three Billboards Outside Ebbing Missouri</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/trailers">trailers</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/video">video</a>]]>
+            </content>
+        </entry>
+
+        <entry>
+            <title>How Vladimir Putin rose to power and Made Russia Great Again</title>
+            <link rel="alternate" type="text/html" href="http://kottke.org/17/03/how-vladimir-putin-rose-to-power-and-made-russia-great-again" />
+            <id>tag:kottke.org,2017://5.29730</id>
+
+            <published>2017-03-27T14:30:59Z</published>
+            <updated>2017-03-27T14:30:59Z</updated>
+
+            <author>
+                <name>Jason Kottke</name>
+                <uri>http://www.kottke.org</uri>
+            </author>
+            <content type="html" xml:lang="en" xml:base="http://kottke.org/">
+                <![CDATA[<p><iframe width="640" height="360" src="https://www.youtube.com/embed/lxMWSmKieuc?rel=0" frameborder="0" allowfullscreen></iframe></p>
+
+        <p>This video from Vox explains how Vladimir Putin took advantage of the post-Soviet political and economic chaos in Russia to become its leader in a very short period of time and what&#8217;s he done with that leadership since then.</p>
+
+        <blockquote><p>Vladimir Putin has been ruling Russia since 1999. In that time he has shaped the country into an authoritarian and militaristic society. The Soviet Union dissolved into 15 new countries, including the new Russian Federation. In Putin&#8217;s eyes, Russia had just lost 2 million square miles of territory. But Putin&#8217;s regime has also developed and fostered the most effect cyber hacker army in the world and he&#8217;s used it to wreak havoc in the West. But the election of Donald Trump brings new hope for the Putin vision. Trump&#8217;s rhetoric has been notably soft on Russia. He could lift sanctions and weaken NATO, potentially freeing up space for Putin&#8217;s Russia to become a dominant power once again.</p></blockquote>
+
+        <p>Watching this, it&#8217;s easy to see how Putin&#8217;s progress in Making Russia Great Again, not to mention the authoritarian methods he employs, would be appealing to Trump.</p>
+
+        <p>See also <a href="https://www.washingtonpost.com/news/worldviews/wp/2017/03/23/here-are-ten-critics-of-vladimir-putin-who-died-violently-or-in-suspicious-ways/">Here are 10 critics of Vladimir Putin who died violently or in suspicious ways</a>.</p>]]>
+
+        <![CDATA[ <strong>Tags:</strong> <a href="http://kottke.org/tag/Donald%20Trump">Donald Trump</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/politics">politics</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/Russia">Russia</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/video">video</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/Vladimir%20Putin">Vladimir Putin</a>]]>
+            </content>
+        </entry>
+
+        <entry>
+            <title>Skateboarding on frozen sand</title>
+            <link rel="alternate" type="text/html" href="http://kottke.org/17/03/skateboarding-on-frozen-sand" />
+            <id>tag:kottke.org,2017://5.29720</id>
+
+            <published>2017-03-24T20:51:15Z</published>
+            <updated>2017-03-24T20:51:15Z</updated>
+
+            <author>
+                <name>Jason Kottke</name>
+                <uri>http://www.kottke.org</uri>
+            </author>
+            <content type="html" xml:lang="en" xml:base="http://kottke.org/">
+                <![CDATA[<p><iframe src="https://player.vimeo.com/video/208432684?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></p>
+
+        <p>In this beautifully shot video, four skateboarders discover the joys of skating on the frozen sand of a Norwegian beach.</p>
+
+        <blockquote><p>Ice, driftwood, foamy waves and &#8230; skateboards? Four skaters head north to the cold Norwegian coast, applying their urban skills to a wild canvas of beach flotsam, frozen sand and pastel skies. The result is a beautiful mashup &#8212; biting winds and short days, ollies and a frozen miniramp.</p></blockquote>
+
+        <p>The result is a lot more contemplative than a lot of other skateboarding videos. The emphasis is not on cool tricks (which were difficult to do in the cold weather) but on the vibe of skating on a frozen Norwegian shoreline with only a few hours of sunlight a day. A longer version <a href="https://vimeo.com/ondemand/onthinice">is available to rent or buy on Vimeo</a> (<a href="https://www.northboundfilm.com/">and more info here</a>).</p>]]>
+
+        <![CDATA[ <strong>Tags:</strong> <a href="http://kottke.org/tag/skateboarding">skateboarding</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/sports">sports</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/video">video</a>]]>
+            </content>
+        </entry>
+
+        <entry>
+            <title>Delicately detailed illustrations of small Korean convenience stores</title>
+            <link rel="alternate" type="text/html" href="http://kottke.org/17/03/delicately-detailed-illustrations-of-small-korean-convenience-stores" />
+            <id>tag:kottke.org,2017://5.29693</id>
+
+            <published>2017-03-24T18:32:37Z</published>
+            <updated>2017-03-24T18:32:37Z</updated>
+
+            <author>
+                <name>Jason Kottke</name>
+                <uri>http://www.kottke.org</uri>
+            </author>
+            <content type="html" xml:lang="en" xml:base="http://kottke.org/">
+                <![CDATA[<p><img src="http://also.kottke.org/misc/images/me-kyeoung-lee-01.jpg" width="1000" height="787" border="0" alt="Me Kyeoung Lee" /></p>
+
+        <p><img src="http://also.kottke.org/misc/images/me-kyeoung-lee-02.jpg" width="1000" height="574" border="0" alt="Me Kyeoung Lee" /></p>
+
+        <p><img src="http://also.kottke.org/misc/images/me-kyeoung-lee-03.jpg" width="1000" height="576" border="0" alt="Me Kyeoung Lee" /></p>
+
+        <p>Oh, I really like these. The detail, the delicate realism, the muted but also somehow vibrant colors. <a href="http://www.leemk.com/">Me Kyeoung Lee</a> has been drawing South Korean convenience stores for the past two decades. There appears to be <a href="http://blog.naver.com/namhaebomnal/220918936675">a recent book of her work</a>, but I don&#8217;t know if or where it&#8217;s available (Google Translate isn&#8217;t working on that page). Doesn&#8217;t look like prints are available either. Yo <a href="https://20x200.com/">20x200</a>, get on this! (via <a href="http://www.thisiscolossal.com/2017/03/corner-store-illustrations-by-me-kyeoung-lee/">colossal</a>)</p>]]>
+
+        <![CDATA[ <strong>Tags:</strong> <a href="http://kottke.org/tag/art">art</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/Me%20Kyeoung%20Lee">Me Kyeoung Lee</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/South%20Korea">South Korea</a>]]>
+            </content>
+        </entry>
+
+        <entry>
+            <title>Citizen Jane, a documentary film about Jane Jacobs</title>
+            <link rel="alternate" type="text/html" href="http://kottke.org/17/03/citizen-jane-a-documentary-film-about-jane-jacobs" />
+            <id>tag:kottke.org,2017://5.29722</id>
+
+            <published>2017-03-24T16:19:02Z</published>
+            <updated>2017-03-24T16:19:02Z</updated>
+
+            <author>
+                <name>Jason Kottke</name>
+                <uri>http://www.kottke.org</uri>
+            </author>
+            <content type="html" xml:lang="en" xml:base="http://kottke.org/">
+                <![CDATA[<p><iframe width="640" height="360" src="https://www.youtube.com/embed/hKjkjntspfA" frameborder="0" allowfullscreen></iframe></p>
+
+        <p><a href="http://www.altimeterfilms.com/citizen-jane-battle-for-the-city/">Citizen Jane: The Battle for the City</a> is a documentary films about Jane Jacobs and her legendary battle against Robert Moses for the soul of New York City.</p>
+
+        <blockquote><p>People have to insist on government trying things their way.</p></blockquote>
+
+        <p>The film will be available in theaters and on-demand on April 21.</p>
+
+        <p>I&#8217;m a bit more than halfway through <a href="http://www.amazon.com/exec/obidos/ASIN/B0051X6ZQ4/ref=nosim/0sil8">the audiobook of The Power Broker</a> and Robert Moses is approaching the height of his influence. The power that Moses possessed in NYC almost cannot be overstated &#8212; I can&#8217;t think of any other single person who affected the &#8220;look and feel&#8221; of the city more than he did. I have heard the story many times, but I can&#8217;t wait to get the part with Jacobs, to hear in Caro&#8217;s words how this infinitely powerful man lost his grip on the city because of this remarkable woman and a group of concerned citizens. (via <a href="https://twitter.com/daveg">@daveg</a>)</p>
+
+        <p><strong>Update:</strong> Astoundingly, <a href="https://nextcity.org/daily/entry/jane-jacobs-missing-chapter-robert-caro">Jacobs is not in The Power Broker</a>. Her chapter was cut for length. (thx, alec)</p>]]>
+
+        <![CDATA[ <strong>Tags:</strong> <a href="http://kottke.org/tag/books">books</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/cities">cities</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/Citizen%20Jane">Citizen Jane</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/Jane%20Jacobs">Jane Jacobs</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/movies">movies</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/NYC">NYC</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/Robert%20Caro">Robert Caro</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/Robert%20Moses">Robert Moses</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/The%20Power%20Broker">The Power Broker</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/trailers">trailers</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/video">video</a>]]>
+            </content>
+        </entry>
+
+        <entry>
+            <title>The importance of social capital in public life</title>
+            <link rel="alternate" type="text/html" href="http://kottke.org/17/03/the-importance-of-social-capital-in-public-life" />
+            <id>tag:kottke.org,2017://5.29717</id>
+
+            <published>2017-03-24T14:34:43Z</published>
+            <updated>2017-03-24T14:34:43Z</updated>
+
+            <author>
+                <name>Jason Kottke</name>
+                <uri>http://www.kottke.org</uri>
+            </author>
+            <content type="html" xml:lang="en" xml:base="http://kottke.org/">
+                <![CDATA[<p>In 1993, Robert Putnam, who later went on to write <a href="https://www.amazon.com/exec/obidos/ASIN/0743203046/ref=nosim/0sil8">Bowling Alone</a> (which inspired <a href="https://www.meetup.com">Meetup</a>), wrote a piece for The American Prospect called <a href="http://prospect.org/article/prosperous-community-social-capital-and-public-life">The Prosperous Community: Social Capital and Public Life</a> about social capital and its contribution to political and economic well-being of a society. Much has changed since then, but Putnam&#8217;s piece is solidly relevant to the political situation in America today.</p>
+
+        <blockquote><p>How does social capital undergird good government and economic progress? First, networks of civic engagement foster sturdy norms of generalized reciprocity: I&#8217;ll do this for you now, in the expectation that down the road you or someone else will return the favor. &#8220;Social capital is akin to what Tom Wolfe called the &#8216;favor bank&#8217; in his novel, The Bonfire of the Vanities,&#8221; notes economist Robert Frank. A society that relies on generalized reciprocity is more efficient than a distrustful society, for the same reason that money is more efficient than barter. Trust lubricates social life.</p>
+
+        <p>Networks of civic engagement also facilitate coordination and communication and amplify information about the trustworthiness of other individuals. Students of prisoners&#8217; dilemmas and related games report that cooperation is most easily sustained through repeat play. When economic and political dealing is embedded in dense networks of social interaction, incentives for opportunism and malfeasance are reduced. This is why the diamond trade, with its extreme possibilities for fraud, is concentrated within close-knit ethnic enclaves. Dense social ties facilitate gossip and other valuable ways of cultivating reputation&#8212;an essential foundation for trust in a complex society.</p></blockquote>
+
+        <p>This quote by 18th-century Scottish philosopher David Hume that leads off the piece succinctly sums up the challenges involved and the potential consequences in not addressing them properly:</p>
+
+        <blockquote><p>Your corn is ripe today; mine will be so tomorrow. &#8216;Tis profitable for us both, that I should labour with you today, and that you should aid me tomorrow. I have no kindness for you, and know you have as little for me. I will not, therefore, take any pains upon your account; and should I labour with you upon my own account, in expectation of a return, I know I should be disappointed, and that I should in vain depend upon your gratitude. Here then I leave you to labour alone; You treat me in the same manner. The seasons change; and both of us lose our harvests for want of mutual confidence and security.</p></blockquote>
+
+        <p>(via <a href="https://twitter.com/timoreilly">@timoreilly</a>)</p>]]>
+
+        <![CDATA[ <strong>Tags:</strong> <a href="http://kottke.org/tag/books">books</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/Bowling%20Alone">Bowling Alone</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/David%20Hume">David Hume</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/economics">economics</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/politics">politics</a>&nbsp;&nbsp; <a href="http://kottke.org/tag/Robert%20Putnam">Robert Putnam</a>]]>
+            </content>
+        </entry>
+
+
+
+        </feed>
+    http_version: 
+  recorded_at: Thu, 06 Apr 2017 15:30:37 GMT
+recorded_with: VCR 3.0.3

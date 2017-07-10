@@ -13,10 +13,16 @@
 ActiveRecord::Schema.define(version: 20170401020652) do
 
   create_table "entries", force: :cascade do |t|
-    t.string   "title",      null: false
-    t.string   "url",        null: false
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.integer  "feed_id",            null: false
+    t.string   "title",              null: false
+    t.string   "url",                null: false
+    t.string   "author"
+    t.string   "content"
+    t.string   "entry_id"
+    t.datetime "entry_published_at"
+    t.datetime "entry_updated_at"
+    t.datetime "created_at",         null: false
+    t.datetime "updated_at",         null: false
   end
 
   create_table "feeds", force: :cascade do |t|

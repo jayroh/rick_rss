@@ -1,8 +1,23 @@
 # frozen_string_literal: true
-require "rick_rss"
+
+require "database_cleaner"
+require "factory_girl"
+require "minitest/spec"
 require "pry"
+require "rick_rss"
+require "shoulda/matchers"
+require "vcr"
+require "webmock/rspec"
+require "factories"
 
 ENV["db"] = "test"
+
+WebMock.disable_net_connect!(allow_localhost: true)
+
+VCR.configure do |config|
+  config.cassette_library_dir = "spec/fixtures/vcr_cassettes"
+  config.hook_into :webmock
+end
 
 RSpec.configure do |config|
   config.shared_context_metadata_behavior = :apply_to_host_groups
@@ -13,6 +28,7 @@ RSpec.configure do |config|
   config.profile_examples = 10
   config.order = :random
   config.default_formatter = 'doc'if config.files_to_run.one?
+  config.include FactoryGirl::Syntax::Methods
 
   config.expect_with :rspec do |expectations|
     expectations.include_chain_clauses_in_custom_matcher_descriptions = true
@@ -20,6 +36,20 @@ RSpec.configure do |config|
 
   config.mock_with :rspec do |mocks|
     mocks.verify_partial_doubles = true
+  end
+
+  config.before(:suite) do
+    RickRss::Init.call &&
+      DatabaseCleaner.clean_with(:deletion)
+  end
+
+  config.before(:each) do
+    DatabaseCleaner.strategy = :transaction
+    DatabaseCleaner.start
+  end
+
+  config.after(:each) do
+    DatabaseCleaner.clean
   end
 
   Kernel.srand config.seed

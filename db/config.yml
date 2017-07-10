@@ -1,0 +1,18 @@
+development:
+  adapter: sqlite3
+  database: db/rick_rss_dev.sqlite3
+  pool: 5
+  timeout: 5000
+test:
+  adapter: sqlite3
+  database: db/rick_rss_test.sqlite3
+  pool: 5
+  timeout: 5000
+production:
+  adapter: sqlite3
+  database: <%= File.expand_path("~") %>/.rick_rss/rick_rss.sqlite3
+  pool: 5
+  timeout: 5000
+test_install:
+  adapter: sqlite3
+  database: test_install/rick_rss.sqlite3

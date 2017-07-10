@@ -1,29 +1,22 @@
+# frozen_string_literal: true
+
 require "active_record_migrations"
-require "rick_rss/configuration"
 require "pry"
+require "rick_rss/configuration"
+require "rspec/core/rake_task"
 
 ActiveRecordMigrations.configure do |config|
-  config.environment = ENV.fetch("db", "production")
-  adapter            = RickRss::Configuration.adapter
-  database           = RickRss::Configuration.database
-
-  config.database_configuration = {
-    "test" => {
-      "adapter" => adapter,
-      "database" => database,
-    },
-    "production" => {
-      "adapter" => adapter,
-      "database" => database,
-    },
-  }
-
-  # Other settings:
-  #
-  # config.schema_format = :sql # default is :ruby
-  # config.yaml_config = "db/config.yml"
-  # config.db_dir = "db"
-  # config.migrations_paths = ["db/migrate"] # 1st entry is used by generator
+  config.environment = ENV.fetch("db", ENV.fetch("DB", "test"))
+  config.yaml_config = "db/config.yml"
 end
 
 ActiveRecordMigrations.load_tasks
+
+task(:default).clear
+task(:spec).clear
+
+RSpec::Core::RakeTask.new(:spec) do |t|
+  t.verbose = false
+end
+
+task default: :spec

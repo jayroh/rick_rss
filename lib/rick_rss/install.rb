@@ -1,12 +1,16 @@
 # frozen_string_literal: true
+
 require "rake"
-require "pry"
 
 module RickRss
   # Installs all necessary files and dependencies
   class Install
     def self.run
+      old_env = ENV["db"]
+      ENV["db"] = "production"
       new.run
+    ensure
+      ENV["db"] = old_env
     end
 
     def run
@@ -15,13 +19,13 @@ module RickRss
       else
         FileUtils.mkdir(RickRss::Configuration.base_dir)
       end
-
       Rake.load_rakefile("Rakefile")
-      Rake.application["db:setup"].invoke
       Rake.application["db:setup"].reenable
-
-      FileUtils.cp(RickRss::Configuration::CONFIG_SOURCE, RickRss::Configuration.config_file)
-
+      Rake.application["db:setup"].invoke
+      FileUtils.cp(
+        RickRss::Configuration::CONFIG_SOURCE,
+        RickRss::Configuration.config_file,
+      )
       message
     end
   end
